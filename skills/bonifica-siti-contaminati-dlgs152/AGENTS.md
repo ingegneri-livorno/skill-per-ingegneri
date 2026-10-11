@@ -24,6 +24,13 @@ Catalogata in `references/sources.yaml`:
   (v. 11), 244 (v. 3), 249, 257 (v. 2) letti via AJAX (caricaArticolo) e
   trascritti verbatim in `references/fonti/dlgs-152-2006.md`.
 
+- **dl-177-2026-gu234**: D.L. 8/10/2026 n. 177, PDF della GU SG n. 234
+  (pp. 1-5), trascritto in `references/fonti/dl-177-2026.md` (art. 5; art. 4 c. 1
+  lett. b; art. 6). In vigore dal 9/10/2026, soggetto a conversione in legge.
+- **dl-153-2024-gu244**: D.L. 153/2024 art. 6 (testo di pubblicazione, GU SG n.
+  244), richiamato dall'art. 5 c. 2 del D.L. 177/2026, in
+  `references/fonti/dl-153-2024-art6.md`.
+
 Estratto operativo: `references/estratti/bonifica-siti-checklist.md`.
 
 ## Punti chiave (verificati sul testo)
@@ -41,7 +48,10 @@ Estratto operativo: `references/estratti/bonifica-siti-checklist.md`.
   esito < CSR chiusura / >= CSR progetto di bonifica (c. 5).
 - **PA (art. 244)**: comunicazione a regione/provincia/comune (c. 1); provincia
   **diffida con ordinanza** il responsabile (c. 2), notificata al proprietario
-  (c. 3); se nessuno provvede, interviene l'amministrazione (art. 250).
+  (c. 3) **entro 150 giorni** dalla comunicazione del c. 1 (D.L. 177/2026); se
+  inerte, la regione assegna alla provincia fino a 30 giorni e poi adotta
+  l'ordinanza con supporto SNPA (c. 4-ter); se nessuno provvede, interviene
+  l'amministrazione (art. 250).
 - **Aree ridotte (art. 249)**: procedure semplificate Allegato 4.
 - **Sanzioni (art. 257)**: superamento CSR senza bonifica conforme arresto 6
   mesi-1 anno o ammenda 2.600-26.000; mancata comunicazione arresto 3 mesi-1 anno
@@ -79,6 +89,6 @@ attualmente art. 242 v. 11, art. 244 v. 3, art. 240/257 v. 2).
 
 ## Stato attuale
 
-- Versione: 0.1.0-alpha (closes #62)
+- Versione: 0.2.0-alpha (closes #62, #507)
 - Task files: 2 (`diagnosi-procedura.md`, `checklist-adempimenti.md`)
 - Esempi: 2 (sversamento sotto CSC; superamento CSC in area dismessa)

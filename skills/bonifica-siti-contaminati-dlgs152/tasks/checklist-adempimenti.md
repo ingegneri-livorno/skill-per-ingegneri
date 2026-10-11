@@ -27,6 +27,12 @@ bonifica (art. 242) e le sanzioni applicabili (art. 257).
 - [ ] Comunicazione della PA a regione, provincia e comune (c. 1).
 - [ ] **Ordinanza motivata** della provincia al responsabile (c. 2), notificata
       anche al **proprietario** (art. 253) (c. 3).
+- [ ] **Termine di 150 giorni** dalla comunicazione del c. 1 per adottare
+      l'ordinanza (c. 3, come modificato dal D.L. 177/2026, in vigore dal
+      9/10/2026; D.L. soggetto a conversione). Se scaduto: la regione assegna alla
+      provincia **non oltre 30 giorni**; decorsi inutilmente, ordinanza della
+      **regione** con supporto SNPA (c. 4-ter). Il D.L. non detta norme
+      transitorie per i procedimenti gia' avviati: non presumerle.
 
 ## Aree di ridotte dimensioni (art. 249)
 

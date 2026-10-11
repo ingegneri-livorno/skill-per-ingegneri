@@ -39,8 +39,13 @@ di potenziale contaminazione, con termini e attori.
      in conferenza di servizi.
 
 > Se il procedimento parte dalla **PA** (art. 244), la provincia diffida il
-> responsabile con **ordinanza motivata** (notificata anche al proprietario);
-> se nessuno provvede, interviene l'amministrazione competente (art. 250).
+> responsabile con **ordinanza motivata** (notificata anche al proprietario)
+> **adottata entro 150 giorni** dalla comunicazione del c. 1 (e senza indugio
+> notificata); in caso di inerzia la
+> regione assegna alla provincia fino a 30 giorni e poi adotta l'ordinanza con
+> il supporto SNPA (c. 3 e 4-ter, D.L. 177/2026, in vigore dal 9/10/2026, da
+> convertire in legge); se nessuno provvede, interviene l'amministrazione
+> competente (art. 250).
 > Per le **aree di ridotte dimensioni** si applicano le procedure semplificate
 > dell'Allegato 4 (art. 249).
 

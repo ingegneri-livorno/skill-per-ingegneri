@@ -4,10 +4,11 @@ description: "Supporto documentale alla procedura di bonifica dei siti contamina
 license: MIT
 area: ambiente-territorio-mobilita
 title: "Bonifica siti contaminati - D.Lgs. 152/2006 Titolo V"
-summary: "Procedura di bonifica dei siti contaminati (D.Lgs. 152/2006 Titolo V): definizioni CSC/CSR (art. 240), procedura del responsabile (art. 242: 24 ore, 48 ore, caratterizzazione, analisi di rischio), ordinanza della PA (art. 244), aree ridotte (art. 249), sanzioni (art. 257)"
+summary: "Procedura di bonifica dei siti contaminati (D.Lgs. 152/2006 Titolo V): definizioni CSC/CSR (art. 240), procedura del responsabile (art. 242), ordinanza PA (art. 244: 150 giorni, sostituzione regionale, D.L. 177/2026), aree ridotte (art. 249), sanzioni (art. 257)"
 normative_refs:
   - "D.Lgs. 3/4/2006 n. 152 (testo vigente) - Parte quarta Titolo V, artt. 240, 242, 244, 249, 257"
-version: 0.1.0-alpha
+  - "D.L. 8/10/2026 n. 177 (GU n. 234 dell'8/10/2026, in vigore dal 9/10/2026, da convertire in legge) - art. 5: modifiche agli artt. 244 e 252 D.Lgs. 152/2006 e all'All. 5 Tab. 2"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - dlgs-152-2006
@@ -29,7 +30,9 @@ contaminati** ai sensi del **Titolo V della Parte quarta del D.Lgs. 152/2006**:
   bonifica, ripristino) (art. 240);
 - seguire la **procedura operativa** a iniziativa del responsabile (art. 242) con
   i suoi termini (24 ore, 48 ore, 30 giorni, 6 mesi, 60 giorni);
-- capire il **procedimento a iniziativa della PA** con ordinanza (art. 244);
+- capire il **procedimento a iniziativa della PA** con ordinanza (art. 244),
+  incluso il **termine di 150 giorni** e il **potere sostitutivo della regione**
+  introdotti dal D.L. 177/2026;
 - conoscere le **aree di ridotte dimensioni** (art. 249) e le **sanzioni** (art.
   257).
 
@@ -61,6 +64,16 @@ l'analisi di rischio (Allegato 1) ne' redige il piano di caratterizzazione
   Normattiva:
   - **art. 240** (definizioni), **art. 242** (procedure operative), **art. 244**
     (ordinanze PA), **art. 249** (aree ridotte), **art. 257** (sanzioni penali).
+- **D.L. 8/10/2026 n. 177** (GU SG n. 234 dell'8/10/2026), in vigore dal
+  9/10/2026 (art. 6) e **presentato alle Camere per la conversione in legge**:
+  verificare sempre il testo convertito. **Art. 5**: art. 244 c. 3 (ordinanza
+  entro 150 giorni dalla comunicazione del c. 1) e nuovo c. 4-ter (la regione
+  assegna alla provincia fino a 30 giorni, poi adotta l'ordinanza con il supporto
+  SNPA); art. 252 c. 3 (aree marine dei SIN); All. 5 Tab. 2 METALLI (soppresse
+  la decima e la sedicesima riga); estensione dell'art. 6 c. 1 D.L. 153/2024
+  (semplificazioni siti orfani) agli interventi di bonifica finanziati dai Fondi
+  ex art. 1 c. 177 L. 178/2020 e art. 1 c. 6 L. 147/2013. Non modifica gli artt.
+  242, 245, 250.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/dlgs-152-2006.md`,
 `references/estratti/bonifica-siti-checklist.md`.
