@@ -1,6 +1,6 @@
 schema_version: 1
 skill: bonifica-siti-contaminati-dlgs152
-last_verified: 2026-07-14
+last_verified: 2026-10-11
 
 # Fonte per la procedura di bonifica dei siti contaminati (Titolo V, Parte
 # quarta del D.Lgs. 152/2006): definizioni (CSC, CSR, sito contaminato),
@@ -14,8 +14,8 @@ sources:
     # URL pinnata con !vig=YYYY-MM-DD per riproducibilita' dell'hash sotto CI
     # (stesso pattern della skill aua-dpr59-dossier e delle altre skill Normattiva).
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152!vig=2026-07-14
-    accessed: 2026-07-14
-    sha256: af54f5e0c6fa3d0a6d3dc5cf6d33ece0be7969be086dd93a24980e11b053b9fe
+    accessed: 2026-10-11
+    sha256: 936034c50f8baef5822008c88b35c39d8d35b844bf12fbe04753c2552b9fc6e2
     license: public-domain
     binary_path: not_in_repo/dlgs-152-2006-vig-2026-07-14.html
     md_path: references/fonti/dlgs-152-2006.md
@@ -23,7 +23,13 @@ sources:
     notes: |
       Codice redazionale 006G0171, GU n. 88 del 14/4/2006 - S.O. n. 96. Il
       binario e' la pagina indice Normattiva pinnata a !vig=2026-07-14 (hash
-      stabile, doppio download: af54f5e0...). Gli articoli 240 (v. 2,
+      stabile, doppio download: 936034c5...). Ri-verifica 2026-10-11: l'HTML
+      della pagina indice e' cambiato rispetto al primo download (era
+      af54f5e0...: drift della pagina Normattiva, 331087 byte, due download
+      consecutivi identici). Gli articoli 240 (v. 2), 242 (v. 11), 244 (v. 3),
+      249 (v. 1), 257 (v. 2) sono stati riscaricati via caricaArticolo e
+      riletti contro references/fonti/dlgs-152-2006.md: stesse versioni,
+      testo e termini/sanzioni invariati, nessuna correzione necessaria. Gli articoli 240 (v. 2,
       definizioni: CSC, CSR, sito potenzialmente contaminato/contaminato, MISE,
       MISO, bonifica), 242 (v. 11, procedure operative e amministrative), 244
       (v. 3, procedimento su iniziativa della PA), 249 (aree di ridotte
@@ -33,3 +39,41 @@ sources:
       (Allegato 5 - tabelle CSC; Allegato 1 - analisi di rischio; Allegato 2 -
       piano di caratterizzazione; Allegato 4 - procedure semplificate) e il DM
       criteri analisi di rischio sono citati come riferimento e NON riprodotti.
+
+  - id: dl-177-2026-gu234
+    title: "D.L. 8 ottobre 2026, n. 177 - Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche (GU SG n. 234 dell'8/10/2026) - art. 5 (bonifica), art. 4 c. 1 lett. b) (art. 185-ter), art. 6"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/gu/2026/10/08/234/sg/pdf
+    accessed: 2026-10-11
+    sha256: a9cf0cd55b7e37a9e24d318b293c372dda00d18db246b8bb13ca09e9c64ae34b
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-234-2026-10-08.pdf
+    md_path: references/fonti/dl-177-2026.md
+    excerpt_path: references/estratti/bonifica-siti-checklist.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 234 dell'8/10/2026; il D.L. 177/2026
+      occupa le pp. 1-5 (codice redazionale 26G00199), in vigore dal 9/10/2026
+      (art. 6: giorno successivo alla pubblicazione), presentato alle Camere per la
+      conversione in legge. Art. 5 c. 1 lett. a): art. 244 c. 3 (termine di 150
+      giorni dalla comunicazione del c. 1) e nuovo c. 4-ter (potere sostitutivo della
+      regione con supporto SNPA); lett. b): art. 252 c. 3 (aree marine dei SIN);
+      lett. c): All. 5 Tab. 2 METALLI, righe decima e sedicesima soppresse. Art. 5
+      c. 2: estensione dell'art. 6 c. 1 D.L. 153/2024 agli interventi di bonifica
+      finanziati dai Fondi ex art. 1 c. 177 L. 178/2020 e art. 1 c. 6 L. 147/2013.
+      Il D.L. non modifica gli artt. 242, 245, 250.
+
+  - id: dl-153-2024-gu244
+    title: "D.L. 17 ottobre 2024, n. 153 - art. 6 (misure urgenti in materia di bonifica, siti orfani PNRR), testo di pubblicazione - GU SG n. 244 del 17/10/2024"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/gu/2024/10/17/244/sg/pdf
+    accessed: 2026-10-11
+    sha256: 934cafc601e98f82c04d45ad94d1193201b980a770b77830a1c6b1e93b98b2c1
+    license: public-domain
+    binary_path: not_in_repo/gu153-244.pdf
+    md_path: references/fonti/dl-153-2024-art6.md
+    excerpt_path: references/estratti/bonifica-siti-checklist.md
+    notes: |
+      Fascicolo GU SG n. 244 del 17/10/2024 (contiene piu' atti; il D.L. 153/2024 e'
+      pubblicato con il proprio frontespizio). Letto solo l'art. 6, richiamato
+      dall'art. 5 c. 2 del D.L. 177/2026: e' il testo di pubblicazione, non
+      multivigente; la versione vigente e' quella modificata dal D.L. 177/2026.

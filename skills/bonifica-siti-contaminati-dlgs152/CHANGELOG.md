@@ -5,6 +5,29 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0-alpha] - 2026-10-11
+
+### Changed (closes #507)
+- Recepito il D.L. 8/10/2026 n. 177 (GU SG n. 234 dell'8/10/2026, in vigore dal
+  9/10/2026, da convertire in legge), art. 5:
+  - art. 244 c. 3: ordinanza della provincia entro 150 giorni dalla comunicazione
+    del c. 1; nuovo c. 4-ter: la regione assegna alla provincia fino a 30 giorni,
+    poi adotta l'ordinanza con il supporto SNPA;
+  - art. 252 c. 3 (aree marine dei SIN) e All. 5 Tab. 2 METALLI (soppresse la
+    decima e la sedicesima riga): segnalati come richiami, la skill non riproduce
+    i valori CSC;
+  - art. 5 c. 2: semplificazioni siti orfani (art. 6 c. 1 D.L. 153/2024) estese
+    agli interventi di bonifica finanziati dai Fondi ex L. 178/2020 art. 1 c. 177
+    e L. 147/2013 art. 1 c. 6;
+  - art. 4 c. 1 lett. b: art. 185-ter c. 3 (terre e rocce da siti in bonifica).
+- Scarto rispetto alla scheda #507: il testo non usa "perentorio" ne' "FSC" e non
+  detta norme transitorie; il D.L. non modifica gli artt. 242, 245, 250.
+
+### Added
+- Fonti `dl-177-2026-gu234` e `dl-153-2024-gu244` in `references/sources.yaml`
+  (SHA256 dei PDF GU) e trascrizioni `references/fonti/dl-177-2026.md`,
+  `references/fonti/dl-153-2024-art6.md`.
+
 ## [0.1.0-alpha] - 2026-07-14
 
 ### Added (closes #62)

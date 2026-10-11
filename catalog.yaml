@@ -434,11 +434,13 @@ skills:
   area: ambiente-territorio-mobilita
   title: Bonifica siti contaminati - D.Lgs. 152/2006 Titolo V
   summary: 'Procedura di bonifica dei siti contaminati (D.Lgs. 152/2006 Titolo V): definizioni CSC/CSR (art. 240), procedura
-    del responsabile (art. 242: 24 ore, 48 ore, caratterizzazione, analisi di rischio), ordinanza della PA (art. 244), aree
-    ridotte (art. 249), sanzioni (art. 257)'
+    del responsabile (art. 242), ordinanza PA (art. 244: 150 giorni, sostituzione regionale, D.L. 177/2026), aree ridotte
+    (art. 249), sanzioni (art. 257)'
   normative_refs:
   - D.Lgs. 3/4/2006 n. 152 (testo vigente) - Parte quarta Titolo V, artt. 240, 242, 244, 249, 257
-  version: 0.1.0-alpha
+  - 'D.L. 8/10/2026 n. 177 (GU n. 234 dell''8/10/2026, in vigore dal 9/10/2026, da convertire in legge) - art. 5: modifiche
+    agli artt. 244 e 252 D.Lgs. 152/2006 e all''All. 5 Tab. 2'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - dlgs-152-2006
@@ -2841,13 +2843,15 @@ skills:
 - id: terre-rocce-scavo-dpr120
   area: ambiente-territorio-mobilita
   title: 'Terre e rocce da scavo: sottoprodotto e riutilizzo (DPR 120/2017)'
-  summary: 'Qualifica le terre e rocce da scavo secondo il DPR 120/2017: sottoprodotto, escluse dai rifiuti se riusate nel
-    sito, o rifiuto; distingue cantieri piccoli e grandi, con requisiti ambientali (CSC) e dichiarazione di utilizzo. Non
-    riproduce le CSC ne'' le analisi.'
+  summary: 'Qualifica le terre e rocce da scavo (DPR 120/2017): sottoprodotto, escluse se riusate nel sito, o rifiuto; cantieri,
+    CSC. Include art. 185-ter D.Lgs. 152/2006 (DL 177/2026): riuso in sito senza caratterizzazione fino a 20 mc, deposito
+    CER 17.05.04/03* fino a 4.000 mc.'
   normative_refs:
   - D.P.R. 13 giugno 2017, n. 120 - artt. 1, 2, 4, 20, 21, 24 (+ artt. 9 e ss. piano di utilizzo)
   - D.Lgs. 152/2006 Parte IV artt. 183, 184-bis, 185 + CSC Tab. 1 Allegato 5 Titolo V (richiamati)
-  version: 0.1.0-alpha
+  - 'D.L. 8 ottobre 2026, n. 177 art. 4, c. 1, lett. b (nuovo art. 185-ter D.Lgs. 152/2006: cantieri puntuali <= 20 mc con
+    riuso diretto nel sito; deposito 4.000 mc per CER 17.05.04/17.05.03*)'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - terre-e-rocce-da-scavo

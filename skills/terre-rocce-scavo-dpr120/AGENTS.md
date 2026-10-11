@@ -28,8 +28,11 @@ Catalogata in `references/sources.yaml`:
   (hash `67cee768...`, codice 17G00135). Artt. 1, 2, 4, 20, 21, 24 (testo vigente) via
   `caricaArticolo`, trascritti verbatim.
 
-Trascrizione in `references/fonti/dpr-120-2017.md`; estratto in
-`references/estratti/terre-rocce-scavo-checklist.md`.
+- **dl-177-2026-gu234**: D.L. 8 ottobre 2026, n. 177, GU SG n. 234 dell'8/10/2026 (hash `a9cf0cd5...`).
+  Solo art. 4, c. 1, lett. b (nuovo art. 185-ter D.Lgs. 152/2006) e art. 6. Decreto-legge da convertire:
+  non modifica il D.P.R. 120/2017.
+
+Trascrizioni in `references/fonti/`; estratti in `references/estratti/`.
 
 ## Punti chiave (verificati sul testo)
 
@@ -44,6 +47,10 @@ Trascrizione in `references/fonti/dpr-120-2017.md`; estratto in
 - **Utilizzo nel sito** (art. 24): terre **escluse dai rifiuti** (art. 185 D.Lgs. 152/2006) se non
   contaminate (allegato 4); amianto naturale solo nel sito con controllo ARPA/ASL.
 
+- **Art. 185-ter D.Lgs. 152/2006** (D.L. 177/2026): deposito di CER 17.05.04/17.05.03* elevato a 4.000 mc
+  (max 800 mc pericolosi); cantieri puntuali <= 20 mc: riutilizzo diretto in sito senza caratterizzazione,
+  con esclusioni (c. 3). Non citare i limiti precedenti dell'art. 185-bis: non sono nelle fonti.
+
 ## Convenzioni specifiche
 
 ### Cosa NON fare
@@ -57,7 +64,7 @@ Trascrizione in `references/fonti/dpr-120-2017.md`; estratto in
 
 ## Aggiornamento delle fonti
 
-Normattiva: riscaricare l'indice del D.P.R. 120/2017 pinnato a nuovo `!vig=` (nuovo hash) e
+Controllare la legge di conversione del D.L. 177/2026 (art. 4, c. 1, lett. b). Normattiva: riscaricare l'indice del D.P.R. 120/2017 pinnato a nuovo `!vig=` (nuovo hash) e
 rileggere gli articoli; verificare gli aggiornamenti delle CSC (D.Lgs. 152/2006) e degli allegati.
 
 ## Validatori
@@ -66,6 +73,6 @@ rileggere gli articoli; verificare gli aggiornamenti delle CSC (D.Lgs. 152/2006)
 
 ## Stato attuale
 
-- Versione: 0.1.0-alpha (closes #259)
+- Versione: 0.2.0-alpha (closes #259, #508)
 - Task files: 2 (`qualifica-terre-scavo.md`, `gestisci-dichiarazione-piccoli-cantieri.md`)
-- Esempi: 2 (piccolo cantiere - dichiarazione di utilizzo; riutilizzo nel sito di produzione)
+- Esempi: 3 (piccolo cantiere - dichiarazione di utilizzo; riutilizzo nel sito di produzione; cantiere puntuale <= 20 mc)
