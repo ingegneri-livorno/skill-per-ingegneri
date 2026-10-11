@@ -1,6 +1,6 @@
 # bonifica-siti-contaminati-dlgs152
 
-> Versione: 0.1.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con tecnico ambientale/geologo da completare)
+> Versione: 0.2.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con tecnico ambientale/geologo da completare)
 
 Skill di **supporto documentale alla procedura di bonifica dei siti contaminati**
 ai sensi del **Titolo V della Parte quarta del D.Lgs. 152/2006**.
@@ -22,7 +22,7 @@ comune / ARPA.
 | `checklist-adempimenti` | Verifica completezza degli adempimenti e dei termini (comunicazioni, autocertificazione, caratterizzazione, analisi di rischio) e le sanzioni (art. 257) |
 
 Nucleo: **definizioni** CSC/CSR e sito contaminato (art. 240), **procedura**
-operativa del responsabile (art. 242), **ordinanza** della PA (art. 244), **aree
+operativa del responsabile (art. 242), **ordinanza** della PA (art. 244, con termine di 150 giorni e potere sostitutivo regionale), **aree
 ridotte** (art. 249), **sanzioni** (art. 257).
 
 ## Fonti consultate
@@ -30,6 +30,8 @@ ridotte** (art. 249), **sanzioni** (art. 257).
 - **D.Lgs. 3/4/2006 n. 152** (TUA), Parte quarta Titolo V, testo vigente su
   Normattiva (pagina indice pinnata `!vig=2026-07-14`) - artt. 240, 242, 244,
   249, 257
+- **D.L. 8/10/2026 n. 177** (GU SG n. 234 dell'8/10/2026, in vigore dal
+  9/10/2026, da convertire in legge) - art. 5 (bonifica)
 
 Dettaglio (URL, SHA256, trascrizione) in `references/sources.yaml`,
 `references/fonti/`, `references/estratti/`.

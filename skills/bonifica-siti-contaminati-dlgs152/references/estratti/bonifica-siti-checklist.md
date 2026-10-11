@@ -48,10 +48,53 @@
 - L'ordinanza e' **notificata anche al proprietario** (art. 253) (c. 3).
 - Se nessuno provvede, interviene l'**amministrazione competente** (art. 250)
   (c. 4).
+- **D.L. 177/2026, art. 5 c. 1 lett. a)** (in vigore dal 9/10/2026, soggetto a
+  conversione in legge; `fonti/dl-177-2026.md`):
+  - l'ordinanza del c. 2 e' **adottata entro 150 giorni dalla comunicazione del
+    c. 1** e senza indugio notificata anche al proprietario (c. 3 modificato).
+    Il testo dice "termine di centocinquanta giorni": non usa la parola
+    "perentorio" e non detta norme transitorie per i procedimenti gia' avviati;
+  - **c. 4-ter** (nuovo): se il termine non e' rispettato la **regione assegna
+    alla provincia un termine non superiore a 30 giorni**; decorso inutilmente,
+    l'ordinanza motivata e' **adottata dalla regione**, con il supporto tecnico
+    dell'**SNPA** (fornito con le risorse disponibili a legislazione vigente).
+- Per le attivita' affidate alle province la provincia si avvale del supporto
+  tecnico dell'ARPA (c. 4-bis, aggiunto dal D.L. 153/2024 art. 6 c. 3 lett. b).
 
 ## 4. Aree di ridotte dimensioni (art. 249)
 
 - **Procedure semplificate** dell'**Allegato 4** alla parte quarta.
+
+## 4-bis. Novita' D.L. 177/2026 (art. 5; GU SG n. 234 dell'8/10/2026)
+
+Il D.L. e' in vigore dal 9/10/2026 (art. 6) ed e' presentato alle Camere per la
+conversione in legge (art. 6): verificare il testo convertito. Oltre all'art. 244
+(sez. 3):
+
+- **Siti orfani** (art. 5 c. 2): l'art. 6 c. 1 D.L. 153/2024 si applica anche agli
+  **interventi di bonifica finanziati** dal Fondo ex art. 1 c. 177 L. 178/2020 o
+  dal Fondo ex art. 1 c. 6 L. 147/2013 (oltre a quelli del Piano d'azione siti
+  orfani PNRR). Il D.L. non nomina "FSC": verificare che il finanziamento
+  dell'intervento provenga da uno di quei due Fondi. Disposizioni richiamate
+  secondo il **testo di pubblicazione** del D.L. 153/2024 art. 6 c. 1
+  (`fonti/dl-153-2024-art6.md`; eventuali modifiche successive alla
+  pubblicazione non sono state verificate: controllare il testo multivigente):
+  piano di caratterizzazione **concordato con l'ARPA** che si pronuncia **entro 30
+  giorni** dalla richiesta (in difetto con ISPRA entro 15 giorni, in deroga
+  all'art. 242 c. 3); risultati della caratterizzazione, analisi di rischio e
+  progetto **approvabili congiuntamente**.
+- **SIN, art. 252 c. 3** (art. 5 c. 1 lett. b): decreto ex art. 264 c. 2-bis per
+  integrare gli allegati sulla bonifica con i criteri di **caratterizzazione
+  ambientale delle aree marine** nei SIN.
+- **Allegato 5, Tab. 2, METALLI** (art. 5 c. 1 lett. c): soppresse la **decima e
+  la sedicesima riga**. La skill non riproduce i valori CSC: leggere la tabella
+  vigente.
+- **Terre e rocce da siti in bonifica** (art. 4 c. 1 lett. b, nuovo art. 185-ter
+  c. 3): il riutilizzo diretto senza caratterizzazione per i "cantieri
+  puntuali" (<= 20 m3) non si applica alle terre e rocce provenienti da siti
+  oggetto di procedimenti di bonifica ex Titolo V o dagli scavi per rimuovere
+  potenziali sorgenti di contaminazione.
+- Il D.L. **non modifica** gli artt. 242, 245 e 250.
 
 ## 5. Sanzioni penali (art. 257)
 
