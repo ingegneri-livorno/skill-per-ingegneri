@@ -1,6 +1,6 @@
 # via-screening-sia-dlgs152
 
-> Versione: 0.1.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con esperto VIA da completare)
+> Versione: 0.2.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con esperto VIA da completare)
 
 Skill di **supporto documentale alla Valutazione di Impatto Ambientale (VIA)**
 ai sensi della Parte Seconda del D.Lgs. 152/2006 (testo vigente) e del DM
@@ -27,6 +27,10 @@ documentazione VIA.
 - **D.Lgs. 3/4/2006 n. 152**, Parte Seconda - artt. 19, 22 + Allegati IV-bis, V,
   VII (testo vigente su Normattiva, pagina indice pinnata `!vig=2026-07-14`;
   art. 19 in vigore dal 17-12-2024)
+- **D.L. 8/10/2026 n. 177** (GU SG n. 234 dell'8/10/2026, in vigore dal
+  9/10/2026, soggetto a conversione) - art. 1: modifiche agli artt. 8 (Commissione
+  Tecnica PNRR-PNIEC: include le verifiche di assoggettabilita' dei progetti
+  statali PNRR/PNIEC), 25, 27; l'art. 19 non e' modificato
 - **DM 30/03/2015** (GU n. 84/2015) - linee guida per la verifica di
   assoggettabilita' a VIA dei progetti di competenza regionale
 

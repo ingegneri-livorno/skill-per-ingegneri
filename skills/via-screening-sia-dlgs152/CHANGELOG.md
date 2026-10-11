@@ -5,6 +5,48 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+- `references/fonti/dlgs-152-2006-via.md` riscritto verbatim da Normattiva
+  (`!vig=2026-07-14`, riletti art. 19, All. IV-bis, V, VII, artt. 8, 25, 27): la
+  versione precedente di art. 19 (soprattutto c. 6-bis, 7, 10, 11, 12) e degli
+  allegati era condensata/parafrasata, non verbatim, e l'All. V era in forma
+  semplificata e incompleta. Estratto e task verificati contro il testo reale:
+  nessuna modifica sostanziale necessaria.
+- Hash della pagina indice Normattiva aggiornato a `936034c5...` (drift HTML,
+  doppio download stabile). Fonte `dlgs-152-2006-art-8-25-27-ante-dl177`
+  rimossa (`binary_path` null con sha256 incoerente): il testo ante-decreto di
+  artt. 8, 25, 27 e' coperto da `dlgs-152-2006-via` (stessa pagina pinnata).
+
+## [0.2.0-alpha] - 2026-10-11
+
+### Changed (closes #506)
+- Recepito il **D.L. 8 ottobre 2026, n. 177** (GU SG n. 234 dell'8/10/2026, in
+  vigore dal 9/10/2026, soggetto a conversione in legge), art. 1 c. 1:
+  - lett. a) n. 1): art. 8 c. 2-bis D.Lgs. 152/2006 - le verifiche di
+    assoggettabilita' a VIA rientrano tra le procedure della Commissione Tecnica
+    PNRR-PNIEC (progetti statali PNRR, fondo complementare, PNIEC allegato I-bis,
+    risorsa idrica allegato II) e la Commissione opera anche con le modalita'
+    dell'art. 19;
+  - lett. a) n. 2), lett. b): art. 8 c. 5-bis e art. 25 c. 2-ter (copertura del
+    rimborso dei diritti di istruttoria; VIA statale, non screening);
+  - lett. c): art. 27 c. 2 lett. d), clausola di coordinamento con art. 25 c.
+    2-quinquies, primo periodo (VIA statale).
+- Nuova sezione F dell'estratto, nota in SKILL.md e nel task di screening.
+- Nuove fonti: `dl-177-2026-gu234` (PDF GU n. 234, SHA256 a9cf0cd5...) e
+  testo Normattiva ante-decreto degli articoli novellati (inizialmente fonte
+  separata, poi unificata in `dlgs-152-2006-via`, vedi sotto).
+
+### Non confermato dal testo ufficiale (affermazioni della scheda #506)
+- Nessuna modifica all'art. 19 ne' all'art. 22 ne' agli Allegati: procedura,
+  termini e contenuti dello screening e del SIA restano invariati.
+- La Commissione PNRR-PNIEC esisteva gia' (art. 8 c. 2-bis); il decreto non la
+  istituisce ne' "concentra" in essa lo screening in forma esclusiva, ma aggiunge
+  le verifiche di assoggettabilita' alle procedure del c. 2-bis.
+- Nessuna "autorizzazione ambientale unica" con paesaggistica integrata nello
+  screening e nessuna eliminazione di una istruttoria paesaggistica separata:
+  il decreto aggiunge solo ", fatto salvo quanto previsto all'articolo 25, comma
+  2-quinquies, primo periodo" all'art. 27 c. 2 lett. d).
+
 ## [0.1.0-alpha] - 2026-07-14
 
 ### Added (closes #36)

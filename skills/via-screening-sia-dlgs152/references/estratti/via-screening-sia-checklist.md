@@ -2,7 +2,8 @@
 
 Estratto curato per l'uso. Ogni voce e' parafrasi/citazione delle trascrizioni
 verificate in `references/fonti/dlgs-152-2006-via.md` (D.Lgs. 152/2006, testo
-vigente su Normattiva) e `references/fonti/dm-30-03-2015-via.md` (DM 30/03/2015).
+vigente su Normattiva), `references/fonti/dm-30-03-2015-via.md` (DM 30/03/2015) e,
+per la sezione F, `references/fonti/dl-177-2026.md` (D.L. 177/2026).
 
 ## A. Verifica di assoggettabilita' a VIA (screening) - procedura art. 19
 
@@ -106,6 +107,62 @@ criteri di esclusione dalla verifica. Sempre nel vincolo di conformita'
 all'allegato V. Per soglie e aree sensibili di dettaglio: DM 30/03/2015 (GU
 84/2015) e norme regionali.
 
+## F. Novita' D.L. 8 ottobre 2026, n. 177 (in vigore dal 9/10/2026) - competenza statale PNRR/PNIEC
+
+Fonte: `references/fonti/dl-177-2026.md` (art. 1 c. 1 lett. a-c, art. 6) e, per il
+testo modificato, `references/fonti/dlgs-152-2006-via.md` (sezione finale, testo ante-decreto).
+
+**Stato**: decreto-legge, in vigore dal giorno successivo alla pubblicazione in GU
+(8/10/2026), quindi dal 9/10/2026; l'art. 6 c. 1 prevede che "sara' presentato
+alle Camere per la conversione in legge". Le fonti della skill non documentano
+l'esito della conversione: verificare in GU l'eventuale legge di conversione e
+le sue modifiche prima di citare il decreto come definitivo. L'art. 1 non
+contiene disposizioni transitorie per i procedimenti in corso.
+
+**F.1 Screening di competenza statale PNRR/PNIEC (art. 8 c. 2-bis)**
+- La Commissione Tecnica PNRR-PNIEC e' istituita (art. 8 c. 2-bis, gia' vigente)
+  "per lo svolgimento delle procedure di valutazione ambientale" di competenza
+  statale dei progetti compresi nel PNRR, di quelli finanziati dal fondo
+  complementare, dei progetti attuativi del PNIEC individuati nell'allegato I-bis
+  e di quelli connessi alla gestione della risorsa idrica ricompresi
+  nell'allegato II alla Parte Seconda.
+- D.L. 177/2026, art. 1 c. 1 lett. a) n. 1): al primo periodo del c. 2-bis, dopo
+  "ivi comprese" sono inserite le parole "le verifiche di assoggettabilita' a VIA
+  e" (n. 1.1); al quattordicesimo periodo ("La Commissione opera con le modalita'
+  previste dagli articoli ...") l'elenco diventa "articoli 19, 20, 21, 23, 24, 25,
+  27 e 28" (n. 1.2). Quindi, per i progetti di competenza statale rientranti
+  nell'ambito del c. 2-bis, la verifica di assoggettabilita' (art. 19) rientra tra
+  le procedure della Commissione Tecnica PNRR-PNIEC, che opera con le modalita'
+  dell'art. 19 oltre che degli artt. 20, 21, 23, 24, 25, 27, 28.
+- Il decreto **non modifica il testo dell'art. 19** (termini, studio preliminare,
+  criteri): restano quelli della sezione A. Non modifica l'art. 22 ne' gli
+  Allegati IV-bis, V, VII.
+- Per i progetti statali fuori dall'ambito del c. 2-bis la skill non ha elementi
+  nel decreto per indicare una competenza diversa: l'art. 8 c. 1 (Commissione
+  tecnica di verifica dell'impatto ambientale) non e' toccato.
+
+**F.2 Autorizzazione paesaggistica (art. 27 c. 2 lett. d) e art. 25 c. 2-quinquies)**
+- D.L. 177/2026, art. 1 c. 1 lett. c): all'art. 27 c. 2 lett. d) (autorizzazione
+  paesaggistica ex art. 146 D.Lgs. 42/2004, tra i titoli compresi nel
+  provvedimento unico per la VIA statale) sono aggiunte le parole ", fatto salvo
+  quanto previsto all'articolo 25, comma 2-quinquies, primo periodo".
+- L'art. 25 c. 2-quinquies, primo periodo (non modificato, testo ante-decreto) dice
+  che il concerto del direttore generale del Ministero della cultura comprende
+  l'autorizzazione ex art. 146 D.Lgs. 42/2004, ove la relazione paesaggistica
+  consenta una valutazione positiva di compatibilita' paesaggistica.
+- Portata: e' una clausola di coordinamento riferita alla VIA statale (artt. 25 e
+  27), non allo screening. Il decreto **non** prevede, per la verifica di
+  assoggettabilita', l'assorbimento dell'autorizzazione paesaggistica ne'
+  l'eliminazione di un'istruttoria paesaggistica separata.
+
+**F.3 Diritti di istruttoria (art. 8 c. 5-bis; art. 25 c. 2-ter)**
+- Il decreto annuale ex art. 8 c. 5 definisce anche i costi del rimborso dei
+  diritti di istruttoria ex art. 25 c. 2-ter (nuovo c. 5-bis). Art. 25 c. 2-ter:
+  soppresso il riferimento alle risorse e agli stanziamenti 2021-2023; dal 2026
+  copertura nel limite di 5 milioni di euro annui sui proventi delle tariffe
+  dell'art. 33 c. 1. Il rimborso del 50% dei diritti riguarda il mancato rispetto
+  dei termini dell'art. 25 c. 2-bis (VIA statale), non l'art. 19.
+
 ## Fuori ambito di questa skill
 
 - Non contiene gli elenchi integrali dei progetti (allegati II-bis e IV) con le
@@ -113,7 +170,8 @@ all'allegato V. Per soglie e aree sensibili di dettaglio: DM 30/03/2015 (GU
   rientra nello screening, consultare gli allegati alla Parte Seconda e il DM
   30/03/2015 (con le norme regionali).
 - Non copre la procedura di VIA vera e propria (artt. 23-27), il PAUR (art.
-  27-bis), la VAS (artt. 11-18), la VIA statale (Commissione art. 8), ne' la
+  27-bis), la VAS (artt. 11-18), la VIA statale vera e propria (artt. 23-27: sezione F ne riporta solo le
+  modifiche del D.L. 177/2026 rilevanti per lo screening), ne' la
   fase di consultazione transfrontaliera (art. 32).
 - Non produce lo Studio Preliminare Ambientale ne' il SIA: fornisce checklist di
   struttura/completezza. La redazione e' responsabilita' dei tecnici incaricati.
