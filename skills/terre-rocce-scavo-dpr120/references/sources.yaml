@@ -1,6 +1,6 @@
 schema_version: 1
 skill: terre-rocce-scavo-dpr120
-last_verified: 2026-07-16
+last_verified: 2026-10-11
 
 # Fonte per la gestione delle terre e rocce da scavo: qualificazione come sottoprodotto
 # (anziche' rifiuto), gestione nei cantieri di piccole e grandi dimensioni (dichiarazione /
@@ -39,3 +39,25 @@ sources:
       Allegati tecnici del regolamento (campionamento/analisi, modulistica) sono tabellari: NON
       riprodotti, da leggere sull'atto e sul D.Lgs. 152/2006. La skill copre il quadro, la
       qualificazione e le procedure, non i valori analitici puntuali.
+
+  - id: dl-177-2026-gu234
+    title: "D.L. 8 ottobre 2026, n. 177 - Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche (art. 4, c. 1, lett. b: nuovo art. 185-ter D.Lgs. 152/2006)"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/gu/2026/10/08/234/sg/pdf
+    accessed: 2026-10-11
+    sha256: a9cf0cd55b7e37a9e24d318b293c372dda00d18db246b8bb13ca09e9c64ae34b
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-234-2026-10-08.pdf
+    md_path: references/fonti/dl-177-2026.md
+    excerpt_path: references/estratti/dl-177-2026-art-185-ter.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 234 dell'8/10/2026; il decreto-legge occupa le pp. 1-5
+      (codice redazionale 26G00199). In vigore dal giorno successivo alla pubblicazione (art. 6, c. 1:
+      9/10/2026) e presentato alle Camere per la conversione in legge. Per le terre e rocce da scavo
+      rileva solo l'art. 4, c. 1, lett. b): inserisce l'art. 185-ter nella Parte IV del D.Lgs. 152/2006
+      (non modifica direttamente il D.P.R. 120/2017): c. 1 limiti di deposito elevati a 4.000 mc
+      (max 800 mc pericolosi) per CER 17.05.04 / 17.05.03*; c. 2 riutilizzo diretto nel sito di
+      produzione senza preventiva caratterizzazione per i cantieri puntuali (<= 20 mc dalle sezioni
+      di progetto); c. 3 esclusioni. Il testo dell'art. 185-bis, c. 2, lett. b), D.Lgs. 152/2006 non e'
+      nel decreto e non e' stato scaricato: i limiti precedenti NON sono riportati dalla skill.
+      Il decreto e' soggetto a conversione in legge: verificare la legge di conversione.

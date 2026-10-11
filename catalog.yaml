@@ -2841,13 +2841,15 @@ skills:
 - id: terre-rocce-scavo-dpr120
   area: ambiente-territorio-mobilita
   title: 'Terre e rocce da scavo: sottoprodotto e riutilizzo (DPR 120/2017)'
-  summary: 'Qualifica le terre e rocce da scavo secondo il DPR 120/2017: sottoprodotto, escluse dai rifiuti se riusate nel
-    sito, o rifiuto; distingue cantieri piccoli e grandi, con requisiti ambientali (CSC) e dichiarazione di utilizzo. Non
-    riproduce le CSC ne'' le analisi.'
+  summary: 'Qualifica le terre e rocce da scavo (DPR 120/2017): sottoprodotto, escluse se riusate nel sito, o rifiuto; cantieri,
+    CSC. Include art. 185-ter D.Lgs. 152/2006 (DL 177/2026): riuso in sito senza caratterizzazione fino a 20 mc, deposito
+    CER 17.05.04/03* fino a 4.000 mc.'
   normative_refs:
   - D.P.R. 13 giugno 2017, n. 120 - artt. 1, 2, 4, 20, 21, 24 (+ artt. 9 e ss. piano di utilizzo)
   - D.Lgs. 152/2006 Parte IV artt. 183, 184-bis, 185 + CSC Tab. 1 Allegato 5 Titolo V (richiamati)
-  version: 0.1.0-alpha
+  - 'D.L. 8 ottobre 2026, n. 177 art. 4, c. 1, lett. b (nuovo art. 185-ter D.Lgs. 152/2006: cantieri puntuali <= 20 mc con
+    riuso diretto nel sito; deposito 4.000 mc per CER 17.05.04/17.05.03*)'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - terre-e-rocce-da-scavo
