@@ -1,6 +1,6 @@
 # terre-rocce-scavo-dpr120
 
-> Versione: 0.1.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con professionista ambientale / ARPA da completare)
+> Versione: 0.2.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con professionista ambientale / ARPA da completare)
 
 Skill di **supporto documentale** alla **gestione delle terre e rocce da scavo**:
 qualificazione come **sottoprodotto** (anziché rifiuto), **esclusione dalla disciplina rifiuti**
@@ -29,6 +29,9 @@ produzione escluse dai rifiuti (art. 24).
 
 - **D.P.R. 13 giugno 2017, n. 120** - artt. 1, 2, 4, 20, 21, 24 - testo vigente su Normattiva
   (indice pinnato a `!vig=2026-07-16`, codice 17G00135)
+
+- **D.L. 8 ottobre 2026, n. 177** - art. 4, c. 1, lett. b (nuovo art. 185-ter D.Lgs. 152/2006) e art. 6 -
+  GU SG n. 234 dell'8/10/2026 (decreto-legge da convertire in legge)
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 

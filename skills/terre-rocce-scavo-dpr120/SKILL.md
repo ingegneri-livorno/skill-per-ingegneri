@@ -4,11 +4,12 @@ description: "Supporto documentale alla gestione delle terre e rocce da scavo se
 license: MIT
 area: ambiente-territorio-mobilita
 title: "Terre e rocce da scavo: sottoprodotto e riutilizzo (DPR 120/2017)"
-summary: "Qualifica le terre e rocce da scavo secondo il DPR 120/2017: sottoprodotto, escluse dai rifiuti se riusate nel sito, o rifiuto; distingue cantieri piccoli e grandi, con requisiti ambientali (CSC) e dichiarazione di utilizzo. Non riproduce le CSC ne' le analisi."
+summary: "Qualifica le terre e rocce da scavo (DPR 120/2017): sottoprodotto, escluse se riusate nel sito, o rifiuto; cantieri, CSC. Include art. 185-ter D.Lgs. 152/2006 (DL 177/2026): riuso in sito senza caratterizzazione fino a 20 mc, deposito CER 17.05.04/03* fino a 4.000 mc."
 normative_refs:
   - "D.P.R. 13 giugno 2017, n. 120 - artt. 1, 2, 4, 20, 21, 24 (+ artt. 9 e ss. piano di utilizzo)"
   - "D.Lgs. 152/2006 Parte IV artt. 183, 184-bis, 185 + CSC Tab. 1 Allegato 5 Titolo V (richiamati)"
-version: 0.1.0-alpha
+  - "D.L. 8 ottobre 2026, n. 177 art. 4, c. 1, lett. b (nuovo art. 185-ter D.Lgs. 152/2006: cantieri puntuali <= 20 mc con riuso diretto nel sito; deposito 4.000 mc per CER 17.05.04/17.05.03*)"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - terre-e-rocce-da-scavo
@@ -77,6 +78,16 @@ Le terre **utilizzate nel sito di produzione** e **non contaminate** (allegato 4
 affioramenti naturali con **amianto** oltre soglia si riutilizzano **solo nel sito di
 produzione** sotto controllo delle autorita' (comunicazione ad ARPA e ASL).
 
+## Novita': D.L. 177/2026, nuovo art. 185-ter D.Lgs. 152/2006
+
+Il **D.L. 8 ottobre 2026, n. 177** (GU SG n. 234 dell'8/10/2026, in vigore dal 9/10/2026, **da convertire in legge**: verificare la legge di conversione) inserisce, con l'art. 4, c. 1, lett. b, il nuovo **art. 185-ter** nella **Parte IV del D.Lgs. 152/2006**. **Non modifica direttamente il D.P.R. 120/2017**.
+
+- **Deposito di terre qualificate rifiuto** (c. 1): per i codici EER **17.05.04** e **17.05.03\*** i limiti dell'art. 185-bis, c. 2, lett. b, per il quantitativo di rifiuti in deposito sono elevati a **4.000 mc complessivi, di cui al massimo 800 mc di rifiuti pericolosi**.
+- **Cantieri puntuali** (c. 2): terre prodotte in quantita' **<= 20 mc** (dalle sezioni di progetto) e destinate al **riutilizzo diretto nel medesimo sito di produzione** possono essere riutilizzate **anche senza preventiva caratterizzazione ambientale**; i requisiti devono risultare dalla **documentazione di esecuzione dei lavori**.
+- **Esclusioni** (c. 3): il riutilizzo senza caratterizzazione non si applica a terre **contenenti calcestruzzo, bentonite, vetroresina, miscele cementizie, additivi e materie plastiche utilizzati per scavo meccanizzato o tradizionale**, ne' a terre **provenienti da siti oggetto di procedimenti di bonifica** (Titolo V) o dagli **scavi realizzati per rimuovere potenziali sorgenti di contaminazione**.
+
+Il decreto non coordina il c. 2 con l'art. 24 D.P.R. 120/2017 ne' con l'art. 185, c. 1, lett. c: il rapporto va verificato dal professionista. Il "cantiere puntuale" (<= 20 mc) non coincide con il "cantiere di piccole dimensioni" (<= 6.000 mc, art. 2 D.P.R. 120/2017). Dettaglio in `references/estratti/dl-177-2026-art-185-ter.md`.
+
 ## Cosa NON fa (limiti)
 
 - **Non riproduce i valori delle CSC** (Tab. 1, Allegato 5, Parte IV, D.Lgs. 152/2006) ne' gli
@@ -99,11 +110,12 @@ produzione** sotto controllo delle autorita' (comunicazione ad ARPA e ASL).
   (qualifica come sottoprodotto), **art. 20** (piccoli cantieri - requisiti ambientali), **art. 21**
   (dichiarazione di utilizzo), **art. 24** (utilizzo nel sito di produzione); **artt. 9 e ss.**
   (piano di utilizzo - grandi cantieri, richiamati).
+- **D.L. 8 ottobre 2026, n. 177** - **art. 4, c. 1, lett. b** (nuovo **art. 185-ter** D.Lgs. 152/2006), **art. 6** (entrata in vigore).
 - **D.Lgs. 152/2006** - **art. 183** (definizioni rifiuti), **art. 184-bis** (sottoprodotto),
   **art. 185** (esclusioni), **CSC** Tabella 1, Allegato 5, Titolo V, Parte IV (richiamati).
 
-Dettaglio in `references/sources.yaml`, `references/fonti/dpr-120-2017.md`,
-`references/estratti/terre-rocce-scavo-checklist.md`.
+Dettaglio in `references/sources.yaml`, `references/fonti/dpr-120-2017.md`, `references/fonti/dl-177-2026.md`,
+`references/estratti/terre-rocce-scavo-checklist.md`, `references/estratti/dl-177-2026-art-185-ter.md`.
 
 ## Avvertenza
 

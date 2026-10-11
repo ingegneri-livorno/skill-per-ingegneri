@@ -5,6 +5,17 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0-alpha] - 2026-10-11
+
+### Aggiornamento normativo (closes #508)
+- **D.L. 8 ottobre 2026, n. 177** (GU SG n. 234 dell'8/10/2026, in vigore dal 9/10/2026, da convertire in legge): art. 4, c. 1, lett. b, inserisce il nuovo **art. 185-ter** nella Parte IV del D.Lgs. 152/2006 (non modifica direttamente il D.P.R. 120/2017).
+  - Fonte scaricata dalla GU, SHA256 a9cf0cd55b7e37a9e24d318b293c372dda00d18db246b8bb13ca09e9c64ae34b, trascritta in `references/fonti/dl-177-2026.md`.
+  - Nuovo estratto `references/estratti/dl-177-2026-art-185-ter.md`.
+  - Deposito di terre CER 17.05.04 / 17.05.03*: limiti dell'art. 185-bis, c. 2, lett. b elevati a 4.000 mc (max 800 mc pericolosi).
+  - Cantieri puntuali (<= 20 mc dalle sezioni di progetto, riutilizzo diretto nel medesimo sito): riutilizzo senza preventiva caratterizzazione; esclusioni del c. 3.
+  - `SKILL.md`, task `qualifica-terre-scavo`, `AGENTS.md`, `README.md`, metadati e `normative_refs` aggiornati; nuovo esempio `cantiere-puntuale-20mc`.
+- Il testo dell'art. 185-bis (limiti precedenti) non e' nel decreto e non e' riportato.
+
 ## [0.1.0-alpha] - 2026-07-16
 
 ### Added (closes #259)
