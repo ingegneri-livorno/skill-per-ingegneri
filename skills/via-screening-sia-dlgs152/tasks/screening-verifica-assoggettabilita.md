@@ -20,9 +20,11 @@ Ambientale rispetto all'Allegato IV-bis e ai criteri dell'Allegato V.
 
 ## Fonti da leggere
 
-- `references/estratti/via-screening-sia-checklist.md` sezioni A, B, C, E
+- `references/estratti/via-screening-sia-checklist.md` sezioni A, B, C, E, F
 - se serve conferma: `references/fonti/dlgs-152-2006-via.md` (art. 19, All.
-  IV-bis, All. V) e `references/fonti/dm-30-03-2015-via.md`
+  IV-bis, All. V), `references/fonti/dm-30-03-2015-via.md`, e per le novita' di
+  competenza `references/fonti/dl-177-2026.md` +
+  `references/fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md`
 
 ## Procedura
 
@@ -34,6 +36,19 @@ Ambientale rispetto all'Allegato IV-bis e ai criteri dell'Allegato V.
   norme regionali). Per l'allegato IV richiama i meccanismi di adeguamento
   regionale (riduzione soglie in aree sensibili; incremento max 30%; criteri di
   esclusione) del DM 30/03/2015 (estratto sez. E).
+
+- **Competenza statale PNRR/PNIEC (D.L. 177/2026, in vigore dal 9/10/2026, in
+  conversione)**: se il progetto e' di competenza statale e rientra tra quelli
+  del c. 2-bis dell'art. 8 (PNRR, fondo complementare, progetti attuativi PNIEC
+  dell'allegato I-bis, progetti connessi alla risorsa idrica dell'allegato II),
+  la verifica di assoggettabilita' e' tra le procedure della Commissione Tecnica
+  PNRR-PNIEC (art. 8 c. 2-bis come modificato, estratto sez. F.1). L'art. 19 non
+  e' modificato: procedura e termini restano quelli del Passo 3. Segnala
+  all'utente che il decreto deve essere convertito in legge e di verificare
+  l'esito in GU.
+- Se l'utente chiede dell'autorizzazione paesaggistica: nello screening il
+  decreto non prevede alcuna integrazione (sez. F.2 riguarda la VIA statale,
+  artt. 25 e 27); non affermare che l'autorizzazione sia integrata o assorbita.
 
 ### Passo 2 - Documento da presentare
 - Lo **Studio Preliminare Ambientale** (art. 19 c. 1), redatto secondo

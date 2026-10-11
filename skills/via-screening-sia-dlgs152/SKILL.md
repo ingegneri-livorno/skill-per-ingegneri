@@ -7,8 +7,9 @@ title: "VIA - screening (art. 19) e SIA (Allegato VII) D.Lgs. 152/2006"
 summary: "Supporto documentale VIA (D.Lgs. 152/2006 + DM 30/03/2015): procedura e termini della verifica di assoggettabilita' (art. 19), checklist dello Studio Preliminare Ambientale (All. IV-bis) e dei criteri (All. V), struttura/checklist del SIA (All. VII); non decide l'esito"
 normative_refs:
   - "D.Lgs. 3/4/2006 n. 152 Parte Seconda - artt. 19, 22 + Allegati IV-bis, V, VII (testo vigente)"
+  - "D.L. 8/10/2026 n. 177 art. 1 (modifiche artt. 8, 25, 27 D.Lgs. 152/2006; soggetto a conversione)"
   - "DM 30/03/2015 (linee guida verifica assoggettabilita' competenza regionale)"
-version: 0.1.0-alpha
+version: 0.2.0-alpha
 status: alpha
 tags:
   - via
@@ -45,6 +46,21 @@ le soglie e le norme regionali) e **non sostituisce** i tecnici che redigono e
 firmano lo Studio Preliminare Ambientale o il SIA. Fornisce procedura, termini e
 checklist di completezza tratti dal testo vigente delle norme.
 
+## Novita' normativa: D.L. 177/2026 (in vigore dal 9/10/2026, soggetto a conversione)
+
+Il D.L. 8/10/2026 n. 177 (GU n. 234 dell'8/10/2026) all'art. 1 c. 1 modifica
+l'art. 8 c. 2-bis D.Lgs. 152/2006: la **verifica di assoggettabilita' a VIA**
+dei progetti di competenza statale rientranti nell'ambito della Commissione
+Tecnica PNRR-PNIEC (PNRR, fondo complementare, progetti attuativi PNIEC
+dell'allegato I-bis, progetti idrici dell'allegato II) e' esplicitamente tra le
+procedure di tale Commissione, che opera anche con le modalita' dell'art. 19.
+**L'art. 19 e l'art. 22 non sono modificati**: procedura, termini e contenuti
+restano quelli descritti. Sull'autorizzazione paesaggistica il decreto aggiunge
+solo una clausola di coordinamento all'art. 27 c. 2 lett. d) (VIA statale,
+rinvio all'art. 25 c. 2-quinquies, primo periodo): nessuna modifica per lo
+screening. E' un decreto-legge soggetto a conversione: verificare l'esito in GU.
+Dettaglio: `references/estratti/via-screening-sia-checklist.md` sez. F.
+
 ## Sotto-attivita' disponibili
 
 - **Screening / verifica di assoggettabilita'**: pianificare il procedimento
@@ -76,6 +92,9 @@ Riferimenti completi in `references/sources.yaml`. Trascrizioni verificate in
 - `fonti/dlgs-152-2006-via.md` - D.Lgs. 152/2006 art. 19, All. IV-bis, V, VII
   (testo vigente da Normattiva, pagina indice pinnata `!vig=2026-07-14`)
 - `fonti/dm-30-03-2015-via.md` - DM 30/03/2015 (linee guida screening regionale)
+- `fonti/dl-177-2026.md` - D.L. 177/2026 art. 1 e art. 6 (GU n. 234/2026)
+- `fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md` - testo ante-decreto degli
+  artt. 8, 25, 27 modificati dal D.L. 177/2026
 - `estratti/via-screening-sia-checklist.md` - checklist operative
 
 ## Limiti
@@ -85,6 +104,7 @@ Cosa questa skill NON fa:
   soglie dimensionali: per stabilire se un progetto rientri nello screening,
   consultare gli allegati alla Parte Seconda e il DM 30/03/2015 + norme regionali;
 - non copre la procedura di VIA vera e propria (artt. 23-27), il PAUR (art.
-  27-bis), la VAS (artt. 11-18) ne' la VIA statale (Commissione art. 8);
+  27-bis), la VAS (artt. 11-18) ne' la VIA statale (Commissione art. 8; per le
+  sole modifiche del D.L. 177/2026 vedi sezione "Novita' normativa");
 - non decide l'assoggettabilita' ne' redige gli studi: fornisce procedura e
   checklist di completezza.

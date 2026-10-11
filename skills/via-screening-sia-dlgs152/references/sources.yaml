@@ -1,6 +1,6 @@
 schema_version: 1
 skill: via-screening-sia-dlgs152
-last_verified: 2026-07-14
+last_verified: 2026-10-11
 
 # Fonti per la skill sulla Valutazione di Impatto Ambientale (VIA):
 #   - verifica di assoggettabilita' (screening, art. 19 D.Lgs. 152/2006)
@@ -8,6 +8,7 @@ last_verified: 2026-07-14
 #   - criteri di verifica (Allegato V)
 #   - contenuti dello Studio di Impatto Ambientale - SIA (Allegato VII)
 #   - linee guida per lo screening di competenza regionale (DM 30/03/2015)
+#   - D.L. 177/2026 (modifiche agli artt. 8, 25, 27 della Parte Seconda)
 
 sources:
   - id: dlgs-152-2006-via
@@ -50,3 +51,41 @@ sources:
       regionale di criteri e soglie: riduzione, incremento max 30%, esclusione).
       SHA256 verificato con doppio download (a315fb08...). Le tabelle di
       dettaglio delle linee guida allegate non sono trascritte integralmente.
+
+  - id: dl-177-2026-gu234
+    title: "D.L. 8 ottobre 2026, n. 177 - Disposizioni urgenti per il rafforzamento delle istruttorie ambientali, la gestione dei problemi climatici, l'economia circolare e le bonifiche"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/gu/2026/10/08/234/sg/pdf
+    accessed: 2026-10-11
+    sha256: a9cf0cd55b7e37a9e24d318b293c372dda00d18db246b8bb13ca09e9c64ae34b
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-234-2026-10-08.pdf
+    md_path: references/fonti/dl-177-2026.md
+    excerpt_path: references/estratti/via-screening-sia-checklist.md
+    notes: |
+      Codice redazionale 26G00199, GU Serie Generale n. 234 dell'8/10/2026, pagg.
+      1-5 (il PDF e' l'intero fascicolo, 120 pagg.). In vigore dal 9/10/2026 (art.
+      6: giorno successivo alla pubblicazione); sara' presentato alle Camere per
+      la conversione in legge. Trascritto l'art. 1 (modifiche a artt. 8, 25, 27
+      Parte Seconda D.Lgs. 152/2006) e l'art. 6; artt. 2-5 non pertinenti, non
+      trascritti. L'art. 19 e l'art. 22 NON sono modificati dal decreto.
+
+  - id: dlgs-152-2006-art-8-25-27-ante-dl177
+    title: "D.Lgs. 152/2006 Parte Seconda - artt. 8 (cc. 2-bis, 5), 25 (cc. 2-ter, 2-quinquies), 27 (cc. 1-2) - testo multivigente Normattiva ante D.L. 177/2026"
+    type: decreto-legislativo
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152
+    accessed: 2026-10-11
+    sha256: 71a3274351490997aaac29dcbff60d6fc168007d2296bd2ece25606f3f0ae1b7
+    license: public-domain
+    binary_path: null
+    md_path: references/fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md
+    excerpt_path: references/estratti/via-screening-sia-checklist.md
+    notes: |
+      Il testo dei singoli articoli e' caricato da Normattiva via AJAX
+      (caricaArticolo, idArticolo 8, 25, 27) e non ha una URL statica
+      riproducibile: binary_path null (il CI non puo' riscaricarlo). Lo SHA256 e'
+      quello della concatenazione dei tre file html salvati il 2026-10-11 in
+      not_in_repo/normattiva-dlgs152-art{8,25,27}.html (art8+art25+art27).
+      Serve a leggere cosa il D.L. 177/2026 modifica (il decreto usa il solo
+      linguaggio di novella); il testo coordinato non incorporava ancora le
+      modifiche del decreto alla data di lettura.
