@@ -24,7 +24,7 @@ Ambientale rispetto all'Allegato IV-bis e ai criteri dell'Allegato V.
 - se serve conferma: `references/fonti/dlgs-152-2006-via.md` (art. 19, All.
   IV-bis, All. V), `references/fonti/dm-30-03-2015-via.md`, e per le novita' di
   competenza `references/fonti/dl-177-2026.md` +
-  `references/fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md`
+  `references/fonti/dlgs-152-2006-via.md` (sezione finale, testo ante-decreto)
 
 ## Procedura
 

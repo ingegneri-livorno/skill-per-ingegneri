@@ -110,7 +110,7 @@ all'allegato V. Per soglie e aree sensibili di dettaglio: DM 30/03/2015 (GU
 ## F. Novita' D.L. 8 ottobre 2026, n. 177 (in vigore dal 9/10/2026) - competenza statale PNRR/PNIEC
 
 Fonte: `references/fonti/dl-177-2026.md` (art. 1 c. 1 lett. a-c, art. 6) e, per il
-testo modificato, `references/fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md`.
+testo modificato, `references/fonti/dlgs-152-2006-via.md` (sezione finale, testo ante-decreto).
 
 **Stato**: decreto-legge, in vigore dal giorno successivo alla pubblicazione in GU
 (8/10/2026), quindi dal 9/10/2026; l'art. 6 c. 1 prevede che "sara' presentato

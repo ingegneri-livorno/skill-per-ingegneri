@@ -89,12 +89,11 @@ Se la richiesta non e' chiara, chiedi all'utente quale sotto-attivita' desidera.
 Riferimenti completi in `references/sources.yaml`. Trascrizioni verificate in
 `references/fonti/`, estratto operativo in `references/estratti/`:
 
-- `fonti/dlgs-152-2006-via.md` - D.Lgs. 152/2006 art. 19, All. IV-bis, V, VII
+- `fonti/dlgs-152-2006-via.md` - D.Lgs. 152/2006 art. 19, All. IV-bis, V, VII e,
+  in coda, testo ante-decreto degli artt. 8, 25, 27 modificati dal D.L. 177/2026
   (testo vigente da Normattiva, pagina indice pinnata `!vig=2026-07-14`)
 - `fonti/dm-30-03-2015-via.md` - DM 30/03/2015 (linee guida screening regionale)
 - `fonti/dl-177-2026.md` - D.L. 177/2026 art. 1 e art. 6 (GU n. 234/2026)
-- `fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md` - testo ante-decreto degli
-  artt. 8, 25, 27 modificati dal D.L. 177/2026
 - `estratti/via-screening-sia-checklist.md` - checklist operative
 
 ## Limiti

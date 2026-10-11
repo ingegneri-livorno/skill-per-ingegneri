@@ -5,6 +5,18 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+- `references/fonti/dlgs-152-2006-via.md` riscritto verbatim da Normattiva
+  (`!vig=2026-07-14`, riletti art. 19, All. IV-bis, V, VII, artt. 8, 25, 27): la
+  versione precedente di art. 19 (soprattutto c. 6-bis, 7, 10, 11, 12) e degli
+  allegati era condensata/parafrasata, non verbatim, e l'All. V era in forma
+  semplificata e incompleta. Estratto e task verificati contro il testo reale:
+  nessuna modifica sostanziale necessaria.
+- Hash della pagina indice Normattiva aggiornato a `936034c5...` (drift HTML,
+  doppio download stabile). Fonte `dlgs-152-2006-art-8-25-27-ante-dl177`
+  rimossa (`binary_path` null con sha256 incoerente): il testo ante-decreto di
+  artt. 8, 25, 27 e' coperto da `dlgs-152-2006-via` (stessa pagina pinnata).
+
 ## [0.2.0-alpha] - 2026-10-11
 
 ### Changed (closes #506)
@@ -21,8 +33,8 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
     2-quinquies, primo periodo (VIA statale).
 - Nuova sezione F dell'estratto, nota in SKILL.md e nel task di screening.
 - Nuove fonti: `dl-177-2026-gu234` (PDF GU n. 234, SHA256 a9cf0cd5...) e
-  `dlgs-152-2006-art-8-25-27-ante-dl177` (testo Normattiva ante-decreto degli
-  articoli novellati, binary_path null: caricamento AJAX non riproducibile).
+  testo Normattiva ante-decreto degli articoli novellati (inizialmente fonte
+  separata, poi unificata in `dlgs-152-2006-via`, vedi sotto).
 
 ### Non confermato dal testo ufficiale (affermazioni della scheda #506)
 - Nessuna modifica all'art. 19 ne' all'art. 22 ne' agli Allegati: procedura,

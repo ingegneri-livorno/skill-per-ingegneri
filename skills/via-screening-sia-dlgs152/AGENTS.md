@@ -20,9 +20,11 @@ Catalogate in `references/sources.yaml`:
 
 - **dlgs-152-2006-via**: D.Lgs. 152/2006 Parte Seconda, testo multivigente su
   Normattiva. Binario = pagina indice pinnata `!vig=2026-07-14` (hash stabile
-  af54f5e0..., pattern della skill aua-dpr59-dossier). Testo di art. 19, All.
+  936034c5..., pattern della skill aua-dpr59-dossier). Testo di art. 19, All.
   IV-bis, V, VII caricato via AJAX (caricaArticolo) e trascritto verbatim in
-  `references/fonti/dlgs-152-2006-via.md`.
+  `references/fonti/dlgs-152-2006-via.md`, insieme al testo ante-decreto dei
+  commi degli artt. 8, 25, 27 novellati dal D.L. 177/2026 (stessa pagina
+  pinnata, vigente al 2026-07-14, quindi precedente al decreto).
 - **dm-30-03-2015-via**: DM 30/03/2015 (GU 84/2015, hash a315fb08...) -
   trascrizione di scopo e meccanismi di adeguamento regionale in
   `references/fonti/dm-30-03-2015-via.md`.
@@ -30,8 +32,8 @@ Catalogate in `references/sources.yaml`:
 - **dl-177-2026-gu234**: D.L. 8/10/2026 n. 177 (GU SG n. 234, PDF hash
   a9cf0cd5...) - art. 1 (modifiche artt. 8, 25, 27 Parte Seconda) e art. 6 in
   `references/fonti/dl-177-2026.md`; testo ante-decreto degli articoli
-  novellati in `references/fonti/dlgs-152-2006-art-8-25-27-ante-dl177.md`
-  (fonte `dlgs-152-2006-art-8-25-27-ante-dl177`, binary_path null).
+  novellati nella sezione finale di `references/fonti/dlgs-152-2006-via.md`
+  (fonte `dlgs-152-2006-via`).
 
 Estratto operativo: `references/estratti/via-screening-sia-checklist.md`.
 
