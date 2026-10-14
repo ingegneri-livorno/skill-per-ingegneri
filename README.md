@@ -83,7 +83,7 @@ I symlink permettono di aggiornare tutte le skill installate con `git pull` nel 
 Le skill sono distribuite anche come marketplace nativo Claude Code: un plugin per ogni area del catalogo. Dentro Claude Code:
 
 ```
-/plugin marketplace add morellid/skill-per-ingegneri
+/plugin marketplace add ingegneri-livorno/skill-per-ingegneri
 /plugin install <area-id>@skill-per-ingegneri
 ```
 
@@ -92,16 +92,16 @@ Dove `<area-id>` e' uno tra: `sicurezza-lavoro-cantieri`, `strutture-geotecnica`
 In alternativa, da terminale via il CLI [`vercel-labs/skills`](https://github.com/vercel-labs/skills):
 
 ```bash
-npx skills@latest add morellid/skill-per-ingegneri
+npx skills@latest add ingegneri-livorno/skill-per-ingegneri
 ```
 
 Il manifest e' in `.claude-plugin/marketplace.json`, **rigenerato automaticamente** da `scripts/build_catalog.py`.
 
 ### Installazione drag-and-drop su Claude.ai
 
-Ogni skill e' distribuita anche come `.zip` autonomo nelle [GitHub Releases](https://github.com/morellid/skill-per-ingegneri/releases). Utile se usi Claude solo via web (claude.ai) e non hai installato Claude Code.
+Ogni skill e' distribuita anche come `.zip` autonomo nelle [GitHub Releases](https://github.com/ingegneri-livorno/skill-per-ingegneri/releases). Utile se usi Claude solo via web (claude.ai) e non hai installato Claude Code.
 
-1. Apri l'ultima release: https://github.com/morellid/skill-per-ingegneri/releases/latest
+1. Apri l'ultima release: https://github.com/ingegneri-livorno/skill-per-ingegneri/releases/latest
 2. Scarica il file `<skill-id>.zip` della skill che ti interessa (es. `pos-allegato-xv-checker.zip`).
 3. Vai su https://claude.ai/customize/skills e fai upload (o drag-and-drop) del file `.zip`.
 

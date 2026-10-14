@@ -64,7 +64,7 @@ BINARIES_ROOT = REPO_ROOT / "not_in_repo"
 
 USER_AGENT = (
     "Mozilla/5.0 (compatible; skill-per-ingegneri-CI/1.0; "
-    "+https://github.com/morellid/skill-per-ingegneri)"
+    "+https://github.com/ingegneri-livorno/skill-per-ingegneri)"
 )
 # Alcuni CDN (es. Akamai davanti a gse.it) bloccano UA che dichiarano "bot"
 # anche per documenti pubblici scaricabili da browser. Su 401/403/429 cadiamo

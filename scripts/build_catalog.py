@@ -44,7 +44,7 @@ MARKETPLACE_PATH = REPO_ROOT / ".claude-plugin" / "marketplace.json"
 
 MARKETPLACE_NAME = "skill-per-ingegneri"
 MARKETPLACE_OWNER_NAME = "Davide Morelli"
-MARKETPLACE_HOMEPAGE = "https://github.com/morellid/skill-per-ingegneri"
+MARKETPLACE_HOMEPAGE = "https://github.com/ingegneri-livorno/skill-per-ingegneri"
 MARKETPLACE_DESCRIPTION = (
     "Skill verticali per ingegneri italiani su normative tecniche "
     "(NTC, sicurezza lavoro, appalti, energia, ambiente, AI Act)."
