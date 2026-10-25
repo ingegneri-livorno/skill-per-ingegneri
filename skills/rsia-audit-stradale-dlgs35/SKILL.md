@@ -7,7 +7,9 @@ title: "Audit RSIA / RSA sicurezza stradale (D.Lgs 35/2011)"
 summary: "Supporto alle quattro procedure di gestione della sicurezza delle infrastrutture stradali: VISS (impatto sui progetti), RSA (controlli sulle fasi progettuali), NSA (valutazione a livello di rete), ispezioni periodiche/mirate sulle strade in esercizio"
 normative_refs:
   - "D.Lgs. 35/2011 modificato dal D.Lgs. 213/2021 (recepimento Dir. UE 2019/1936)"
-version: 0.1.0-alpha
+  - "D.M. MIT 11 settembre 2026 - dispositivi di sicurezza stradale per i motociclisti (DSM), GU n. 243 del 19/10/2026"
+  - "D.M. MIT 1 aprile 2019 prot. n. 121 - DSM, regime previgente (abrogato dal D.M. 11/9/2026 dalla sua entrata in vigore, salvo transitorio)"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - rsia
@@ -52,6 +54,7 @@ Se la richiesta non e' chiara, chiedi all'utente quale sotto-attivita' desidera.
 - D.Lgs 15 marzo 2011, n. 35 - testo originale di recepimento della Direttiva 2008/96/CE.
 - D.Lgs 15 novembre 2021, n. 213 - recepimento della Direttiva (UE) 2019/1936 che modifica il D.Lgs 35/2011 (estensione del campo di applicazione, introduzione della valutazione di sicurezza a livello di rete, ispezioni mirate, protezione degli utenti vulnerabili).
 - Direttiva 2008/96/CE - atto-quadro UE su cui si fondano le quattro procedure.
+- D.M. MIT 11 settembre 2026 (GU SG n. 243 del 19/10/2026) - impiego su strada dei dispositivi di sicurezza stradale per i motociclisti (DSM); entra in vigore centottanta giorni dopo la pubblicazione e da allora abroga il D.M. 1 aprile 2019 prot. n. 121 (GU SG n. 114 del 17/05/2019), che resta applicabile fino a quella data e ai lavori in transitorio (art. 7). Usati come riferimento tecnico per i sistemi di contenimento nell'RSA (Allegato II punto 2 lett. f) e nella NSA (Allegato III componente 6).
 
 Riferimenti completi in `references/sources.yaml`. Estratti testuali per articolo, comma e allegato in `references/estratti/`.
 

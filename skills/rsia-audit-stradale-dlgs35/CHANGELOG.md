@@ -7,6 +7,17 @@ e questa skill aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.2.0-alpha] - 2026-10-25
+
+### Changed (closes #514)
+- Recepito il D.M. MIT 11 settembre 2026 sui dispositivi di sicurezza stradale per i motociclisti (DSM) (GU SG n. 243 del 19/10/2026, in vigore centottanta giorni dopo la pubblicazione, art. 7 c. 3), che da quella data abroga il D.M. 1 aprile 2019 prot. n. 121 (art. 7 c. 2), come riferimento tecnico:
+  - `tasks/draft-rsa.md`, Allegato II punto 2 lett. f): verifiche su ambito >= 70 km/h (art. 1 c. 1), zone da proteggere (art. 4 c. 2), estensione (art. 4 c. 5), allegato progettuale (art. 4 c. 1), mancata installazione e deroga (art. 4 cc. 3, 6), conformita' UNI CEN/TS 17342 o previgente TS 1317-8 (artt. 2, 3, 5 c. 4), scelta del decreto applicabile: D.M. 2019 fino all'entrata in vigore del D.M. 2026 e, dopo, per i lavori con affidamento in corso o PFTE approvato (art. 7 cc. 1, 3);
+  - `tasks/draft-nsa.md`, Allegato III componente 6: valutazione del rischio dell'ente sulle barriere in esercizio nelle zone dell'art. 4 c. 2 (art. 5 cc. 1-2).
+- Scarto rispetto alla scheda #514: il decreto non contiene un elenco di tipologie approvate (requisiti prestazionali UNI CEN/TS 17342 e dichiarazione del fabbricante, art. 2) ne' requisiti di manutenzione periodica dei DSM (solo la deroga dell'art. 4 c. 6); non cita RSA, NSA o ispezioni del D.Lgs 35/2011, richiamato solo nel preambolo.
+
+### Added
+- Fonti `dm-mit-11-9-2026-dsm-gu243` e `dm-mit-1-4-2019-dsm-gu114` in `references/sources.yaml` (SHA256 dei PDF GU), trascrizioni `references/fonti/dm-mit-11-9-2026-dsm.md` e `references/fonti/dm-mit-1-4-2019-dsm.md`, estratto `references/estratti/dm-mit-11-9-2026-dsm.md` (con sezione sul quale decreto applicare e sul regime previgente).
+
 ## [0.1.0-alpha] - 2026-05-15
 
 ### Added

@@ -8,17 +8,20 @@ Supporto alle quattro procedure di gestione della sicurezza delle infrastrutture
 
 ## Fonti autoritative
 
-Tutte catalogate in `references/sources.yaml`. Tre fonti scaricate e convertite in markdown, una in riferimento strutturale:
+Tutte catalogate in `references/sources.yaml`. Cinque fonti scaricate e convertite in markdown, una in riferimento strutturale:
 
 - **D.Lgs 35/2011** - hash `1f8b66d3c2ff5d2dfeb54df09bdde5c02b7d97b65c30a0db94d38b7caaee72fd`. Testo originale di recepimento della Direttiva 2008/96/CE.
 - **D.Lgs 213/2021** - hash `29add9f98e6669b3c439cdb90f8740e7edde80213c274fc2c285bca647b06efc`. Modifiche al D.Lgs 35/2011, recepimento Direttiva UE 2019/1936.
 - **Direttiva 2008/96/CE** - hash `7a5b6f3e6f58ed7db3c8fd30416e0349dc5276dce14217c27f132a51b06d634e`. Atto-quadro UE, testo italiano da MIT.
+- **D.M. MIT 11 settembre 2026 (DSM)** - hash `7379e9e2eeb7bf8a9abef9232e9965d3f3fb34ac9f9f7bf62bb943e093b79391` (fascicolo GU SG n. 243 del 19/10/2026). Impiego dei dispositivi di sicurezza stradale per i motociclisti; entra in vigore centottanta giorni dopo la pubblicazione e da allora abroga il D.M. 1 aprile 2019 prot. n. 121. Riferimento tecnico, non atto attuativo del D.Lgs 35/2011.
+- **D.M. MIT 1 aprile 2019, prot. n. 121 (DSM)** - hash `661285e679461664acbef006432218aaea1280be68fccace9d8ff0e16c2e5b1d` (fascicolo GU SG n. 114 del 17/05/2019). Regime previgente, applicabile fino all'entrata in vigore del D.M. 2026 e ai lavori in transitorio (art. 7 c. 1 D.M. 2026).
 - **Direttiva (UE) 2019/1936** - solo riferimento strutturale (CELEX 32019L1936), il contenuto sostanziale e' applicato attraverso il D.Lgs 213/2021.
 
 Estratti pertinenti gia' preparati in `references/estratti/`:
 - `dlgs-35-2011.md` - articoli e allegati del testo originale, con NOTE che indicano cosa il D.Lgs 213/2021 ha modificato.
 - `dlgs-213-2021.md` - articoli 1-15 del decreto di modifica, una tabella riepilogativa finale articolo per articolo.
 - `dir-2008-96-ce.md` - articoli e allegati della direttiva quadro UE.
+- `dm-mit-11-9-2026-dsm.md` - artt. 1-7 del D.M. DSM 2026 (ambito, zone da proteggere, barriere in esercizio, transitorio) e sintesi del D.M. DSM 2019 previgente.
 
 ## Articoli e punti chiave
 
@@ -42,6 +45,7 @@ L'agente, quando produce output, deve citare il riferimento preciso (articolo, c
 - **Allegato II D.Lgs 35/2011**: RSA, 4 fasi, titolo e contenuti modificati dall'art. 11 D.Lgs 213/2021 (PFTE sostituisce progettazione preliminare, lettera d-bis utenti vulnerabili).
 - **Allegato II-bis (inserito art. 12 D.Lgs 213/2021)**: 9 macro-categorie per ispezioni mirate.
 - **Allegato III D.Lgs 35/2011 (sostituito art. 13 D.Lgs 213/2021)**: 11 macro-categorie per NSA.
+- **D.M. MIT 11/9/2026 (DSM)**: art. 1 c. 1 ambito (velocita' di progetto >= 70 km/h), art. 4 c. 2 zone da proteggere, art. 5 barriere in esercizio, art. 7 entrata in vigore e transitorio verso il D.M. 1/4/2019. Prima di applicarlo verificare quale dei due decreti e' applicabile alla data e al progetto. Da citare come riferimento tecnico in Allegato II punto 2 lett. f (RSA) e Allegato III componente 6 (NSA), mai come obbligo del D.Lgs 35/2011.
 - **Allegato IV D.Lgs 35/2011**: 9 elementi relazione incidente, GNSS e gravita' modificati dall'art. 14 D.Lgs 213/2021.
 
 ## Convenzioni specifiche
@@ -69,7 +73,7 @@ L'agente, quando produce output, deve citare il riferimento preciso (articolo, c
 
 ## Stato attuale
 
-- Versione: vedi `CHANGELOG.md` (0.1.0-alpha).
+- Versione: vedi `CHANGELOG.md` (0.2.0-alpha).
 - Validazione: Livello 1 (autore: Claude Opus 4.7).
 - Task files: `check-ambito-applicazione.md`, `draft-viss.md`, `draft-rsa.md`, `draft-nsa.md`, `verifica-requisiti-controllore.md`.
 - Esempi: 1 conforme (`01-rsa-pfte-conforme`) + 1 problematico (`02-rsa-controllore-non-idoneo`).

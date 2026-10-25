@@ -1,6 +1,6 @@
 schema_version: 1
 skill: rsia-audit-stradale-dlgs35
-last_verified: 2026-05-15
+last_verified: 2026-10-25
 
 # Workflow obbligato:
 #   1. SCARICARE -> binary_path
@@ -58,6 +58,39 @@ sources:
       Definisce le quattro procedure principali: valutazione di impatto sulla
       sicurezza stradale (RSIA), controllo della sicurezza stradale (RSA),
       gestione della sicurezza della rete in esercizio, ispezione di sicurezza.
+
+  - id: dm-mit-11-9-2026-dsm-gu243
+    title: "D.M. MIT 11 settembre 2026 - Disposizioni per l'impiego su strada di dispositivi di sicurezza stradale per i motociclisti (DSM). Modifica e sostituzione del decreto 1 aprile 2019 (GU SG n. 243 del 19/10/2026)"
+    type: decreto
+    url: https://www.gazzettaufficiale.it/eli/gu/2026/10/19/243/sg/pdf
+    accessed: 2026-10-25
+    sha256: 7379e9e2eeb7bf8a9abef9232e9965d3f3fb34ac9f9f7bf62bb943e093b79391
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-243-2026-10-19.pdf
+    md_path: references/fonti/dm-mit-11-9-2026-dsm.md
+    excerpt_path: references/estratti/dm-mit-11-9-2026-dsm.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 243 del 19/10/2026; il D.M. occupa
+      le pp. 26-30 (codice redazionale 26A05446). Abroga il D.M. MIT 1 aprile 2019,
+      prot. n. 121 (art. 7 c. 2), che resta applicabile ai lavori in transitorio
+      (art. 7 c. 1). Entra in vigore centottanta giorni dopo la pubblicazione
+      (art. 7 c. 3).
+
+  - id: dm-mit-1-4-2019-dsm-gu114
+    title: "D.M. MIT 1 aprile 2019, prot. n. 121 - Dispositivi stradali di sicurezza per i motociclisti (DSM) (GU SG n. 114 del 17/05/2019)"
+    type: decreto
+    url: https://www.gazzettaufficiale.it/eli/gu/2019/05/17/114/sg/pdf
+    accessed: 2026-10-25
+    sha256: 661285e679461664acbef006432218aaea1280be68fccace9d8ff0e16c2e5b1d
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-114-2019-05-17.pdf
+    md_path: references/fonti/dm-mit-1-4-2019-dsm.md
+    excerpt_path: references/estratti/dm-mit-11-9-2026-dsm.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 114 del 17/05/2019; il D.M. e
+      l'Allegato A occupano le pp. 5-7. Abrogato dal D.M. MIT 11/9/2026 (art. 7
+      c. 2), ma resta applicabile fino all'entrata in vigore di quest'ultimo e,
+      dopo, ai lavori in transitorio (art. 7 c. 1 D.M. 2026).
 
   - id: dir-2019-1936-ue
     title: "Direttiva (UE) 2019/1936 del Parlamento europeo e del Consiglio del 23 ottobre 2019 che modifica la direttiva 2008/96/CE sulla gestione della sicurezza delle infrastrutture stradali"
