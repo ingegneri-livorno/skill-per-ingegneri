@@ -1936,7 +1936,8 @@ skills:
   - Det. ACN 127437/2026
   - Det. ACN 127434/2026
   - Det. ACN 155238/2026
-  version: 0.3.0-alpha
+  - D.Lgs. 191/2026
+  version: 0.4.0-alpha
   status: alpha
   tags:
   - nis2

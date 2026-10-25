@@ -1,6 +1,6 @@
 schema_version: 1
 skill: nis2-self-assessment
-last_verified: 2026-07-11
+last_verified: 2026-10-25
 
 # Ogni sorgente e' un oggetto con i campi:
 #   id: identificatore locale (usato in task files come rinvio)
@@ -41,6 +41,11 @@ sources:
       art. 25 (notifica incidenti significativi), art. 38 (sanzioni
       amministrative). Allegati I e II = settori (alta criticita' /
       altri critici); III = PA; IV = ulteriori tipologie di soggetti.
+      Il 2026-10-25 il PDF e' stato riscaricato (SHA256 invariato) e la
+      trascrizione in references/fonti/dlgs-138-2024.md e' stata estesa
+      all'art. 27 (uso di schemi di certificazione: l'ACN "puo' imporre"
+      l'uso di prodotti/servizi/processi TIC certificati) e all'art. 31
+      co. 1-2 (obblighi proporzionati e graduali stabiliti dall'ACN).
 
   - id: dir-2022-2555-nis2
     title: "Direttiva (UE) 2022/2555 del Parlamento europeo e del Consiglio del 14 dicembre 2022 relativa a misure per un livello comune elevato di cibersicurezza nell'Unione (NIS 2)"
@@ -350,6 +355,56 @@ sources:
       decreto NIS); coordinamento PA/Regolamento Cloud (classi ordinari/
       critici/strategici); Appendice B con motivazioni delle
       pre-assegnazioni e 5 criteri di attribuzione.
+
+  - id: dlgs-191-2026
+    title: "Decreto Legislativo 1 ottobre 2026, n. 191 - Norme di adeguamento della normativa nazionale alle disposizioni del regolamento (UE) 2025/37 che modifica il regolamento (UE) 2019/881 per quanto riguarda i servizi di sicurezza gestiti"
+    type: decreto
+    url: https://www.gazzettaufficiale.it/eli/id/2026/10/22/26G00207/sg
+    download_url: https://www.gazzettaufficiale.it/eli/gu/2026/10/22/246/sg/pdf
+    accessed: 2026-10-25
+    sha256: b47529cde53b3ce955119bb4afab0bf47676b6ec4175769f9af172bd89018274
+    license: public-domain-italian-law
+    binary_path: not_in_repo/dlgs-191-2026.pdf
+    md_path: references/fonti/dlgs-191-2026.md
+    excerpt_paths: []
+    notes: |
+      GU Serie Generale n. 246 del 22/10/2026 (codice redazionale
+      26G00207), pagg. 4-11 del fascicolo; il PDF hashato e' il fascicolo
+      completo della GU. Entrata in vigore 06/11/2026 (scheda dell'atto
+      su gazzettaufficiale.it). 4 articoli: art. 1 modifica il D.Lgs.
+      123/2022 (quadro nazionale di certificazione Cybersecurity Act)
+      estendendolo ai "servizi di sicurezza gestiti" (nuova definizione
+      art. 3 co. 1 lett. a-bis; vigilanza, dichiarazioni UE di conformita',
+      sanzioni); art. 2 modifica l'art. 35 CAD; art. 3 modifica l'art. 7
+      DL 82/2021; art. 4 invarianza finanziaria. Non modifica il D.Lgs.
+      138/2024 e non impone obblighi ai soggetti NIS come committenti di
+      servizi di sicurezza gestiti. La certificazione resta volontaria
+      salvo diversa previsione (art. 6 co. 3 D.Lgs. 123/2022, riportato
+      nelle note GU, non modificato dal decreto).
+
+  - id: reg-ue-2025-37
+    title: "Regolamento (UE) 2025/37 del Parlamento europeo e del Consiglio, del 19 dicembre 2024, che modifica il regolamento (UE) 2019/881 per quanto riguarda i servizi di sicurezza gestiti"
+    type: regolamento-ue
+    url: https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=OJ:L_202500037
+    download_url: https://eur-lex.europa.eu/legal-content/IT/TXT/PDF/?uri=OJ:L_202500037
+    accessed: 2026-10-25
+    sha256: null
+    license: public-domain-eu-law
+    binary_path: null
+    md_path: references/fonti/reg-ue-2025-37.md
+    excerpt_paths: []
+    notes: |
+      GU UE Serie L, 2025/37, 15.1.2025. Testo letto dalla versione HTML
+      ufficiale EUR-Lex in browser; il download diretto del PDF da riga di
+      comando restituisce 202 con body vuoto, quindi il binario non e'
+      conservato in not_in_repo/ (stesso schema delle altre fonti EUR-Lex
+      di questa skill). SHA256 del PDF calcolato in browser il 2026-10-25
+      sul download_url: 19b7dc0beffa258510badabf176afe8ebbf91ab5ef59ca0b308cfb960f0a6859
+      (1.029.772 byte), non riverificabile in CI. Trascritti: considerando
+      3 (maggiore diligenza dei soggetti NIS nella selezione degli MSSP,
+      non vincolante), art. 1 punti 1, 2 lett. b (definizione art. 2 punto
+      14 bis), 7 lett. b (art. 49 par. 7), 14 (art. 56 par. 1 e par. 3
+      primo comma), art. 2.
 
   - id: acn-det-164179-2025
     title: "Agenzia per la Cybersicurezza Nazionale - Determinazione n. 164179 del 14 aprile 2025 - Modalita' e specifiche di base per gli obblighi degli artt. 23, 24, 25, 29 e 32 del D.Lgs. 138/2024 (versione superata)"

@@ -11,7 +11,8 @@ normative_refs:
   - "Det. ACN 127437/2026"
   - "Det. ACN 127434/2026"
   - "Det. ACN 155238/2026"
-version: 0.3.0-alpha
+  - "D.Lgs. 191/2026"
+version: 0.4.0-alpha
 status: alpha
 tags:
   - nis2
@@ -74,6 +75,7 @@ Riferimenti completi in [`references/sources.yaml`](references/sources.yaml). Fo
 - Determinazione ACN n. 127437/2026 del 13/04/2026 (vigente dal 15/04/2026, Capo V dal 01/05/2026) - termini, modalita' e procedimenti di utilizzo della piattaforma digitale ACN; art. 18 sull'**elenco dei fornitori rilevanti NIS** (finestra annuale 15 aprile - 31 maggio); definizione di "fornitore rilevante" all'art. 1 lett. ll)
 - Determinazione ACN n. 127434/2026 del 13/04/2026 (vigente dal 30/04/2026) - termini speciali per i **soggetti inseriti per la prima volta nel 2026**: misure entro 31/07/2027 (art. 1 co. 1) e notifica incidenti significativi dal 01/01/2027 (art. 1 co. 2)
 - Determinazione ACN n. 155238 del 20/04/2026 (si applica dal 01/05/2026) - modello di **categorizzazione delle attivita' e dei servizi** ex art. 30, co. 2, D.Lgs. 138/2024: 10 macro-aree (allegati 1-2), 4 categorie di rilevanza (alto/medio/basso/minimo); le modalita' di trasmissione (finestra 1 maggio - 30 giugno, "Servizio NIS/Categorizzazione") e le verifiche a campione sono al Capo V (artt. 20-21) della Det. 127437/2026
+- D.Lgs. 1 ottobre 2026, n. 191 (GU SG n. 246 del 22/10/2026, in vigore dal 06/11/2026) - adeguamento al Reg. (UE) 2025/37: estende ai **servizi di sicurezza gestiti** il quadro di certificazione del D.Lgs. 123/2022; non modifica il D.Lgs. 138/2024 e non impone obblighi ai soggetti NIS che acquistano tali servizi (verifica facoltativa della certificazione degli MSSP nel task `elenco-fornitori-rilevanti`, Passo 4-bis)
 
 Estratti testuali in [`references/estratti/`](references/estratti/).
 
