@@ -31,6 +31,7 @@ Vedi `references/estratti/acn-det-127434-2026-scadenze-nuovi-soggetti.md` per i 
 - **Stato attuale delle misure**, articolato per sottocategoria. La skill fornisce un questionario con riferimenti alle sottocategorie.
 - **Documentazione disponibile**: politiche di sicurezza, procedure, registri di asset, report di vulnerability assessment, contratti con fornitori, piani BCM/DR, linee guida HR per il personale, policy MFA, ecc.
 - **Certificazioni in essere** (ISO/IEC 27001, ISO 22301, SOC 2, ecc.) - utili per il mapping ma non sostituiscono la conformita' NIS2.
+- **Fornitori di servizi di sicurezza gestiti (MSSP)** - per l'ambito d) catena di approvvigionamento, l'eventuale certificazione europea del servizio acquistato e' una verifica facoltativa, non un obbligo del soggetto NIS (D.Lgs. 191/2026): vedi `tasks/elenco-fornitori-rilevanti.md`, Passo 4-bis.
 
 ## Fonti
 

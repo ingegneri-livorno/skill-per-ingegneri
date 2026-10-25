@@ -7,6 +7,33 @@ e questa skill aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.4.0-alpha] - 2026-10-25
+
+### Added (issue #513 - D.Lgs. 191/2026, certificazione dei servizi di sicurezza gestiti)
+- Task `tasks/elenco-fornitori-rilevanti.md`: nuovo Passo 4-bis, verifica
+  facoltativa della certificazione europea degli MSSP rilevanti (annotazione
+  nelle note interne, non comunicata ad ACN). Esito della lettura delle fonti:
+  il D.Lgs. 191/2026 estende il D.Lgs. 123/2022 ai servizi di sicurezza gestiti
+  (art. 1) ma non modifica il D.Lgs. 138/2024 ne' la Det. ACN 127437/2026 e non
+  impone obblighi ai soggetti NIS come committenti; la certificazione resta
+  volontaria (art. 6 co. 3 D.Lgs. 123/2022). Il task elenca le vie per cui
+  potrebbe diventare obbligatoria: regolamentazione tecnica nazionale ACN lato
+  fornitore (artt. 6 co. 3 e 7 co. 4 D.Lgs. 123/2022), determinazione ACN ex
+  art. 27 D.Lgs. 138/2024 lato soggetto NIS (copertura degli MSSP da verificare),
+  atto UE ex art. 56 par. 3 Reg. (UE) 2019/881. Il considerando 3 del Reg. (UE)
+  2025/37 (non vincolante) afferma che e' importante una maggiore diligenza
+  nella selezione degli MSSP
+- Task `tasks/gap-analysis-misure.md`: rinvio al Passo 4-bis tra gli input
+  dell'ambito d) catena di approvvigionamento
+- Nuove trascrizioni in `references/fonti/`: `dlgs-191-2026.md` (artt. 1-4 +
+  note GU su artt. 6 co. 3, 7 co. 4, 10 co. 4 e 16 D.Lgs. 123/2022) e
+  `reg-ue-2025-37.md` (considerando 3, art. 1 punti 1, 2 lett. b, 7 lett. b,
+  14, art. 2); `dlgs-138-2024.md` estesa agli artt. 27 e 31 co. 1-2
+- Nuove voci in `references/sources.yaml`:
+  - `dlgs-191-2026` con SHA256 `b47529cde53b3ce955119bb4afab0bf47676b6ec4175769f9af172bd89018274` (fascicolo GU SG n. 246/2026)
+  - `reg-ue-2025-37` senza binario (EUR-Lex non scaricabile da riga di comando; testo letto dall'HTML ufficiale)
+- Frontmatter `normative_refs`: aggiunto "D.Lgs. 191/2026"
+
 ## [0.3.0-alpha] - 2026-07-11
 
 ### Added (issue #197 - Det. ACN 155238/2026, categorizzazione attivita' e servizi)

@@ -17,6 +17,7 @@ Produrre la tabella dei fornitori rilevanti NIS pronta per il caricamento sulla 
 Leggere prima:
 - `references/estratti/acn-det-127437-2026-art18-fornitori.md` - art. 1 lett. ll), art. 16 co. 1, art. 16 co. 3 lett. g), art. 18, art. 24 co. 3
 - `references/estratti/dlgs-138-2024-allegati-i-iv.md` - Allegato I punti 8 e 9 (per il criterio 1)
+- Solo per il Passo 4-bis (MSSP): `references/fonti/dlgs-191-2026.md` (art. 1 e note sul D.Lgs. 123/2022), `references/fonti/reg-ue-2025-37.md` (considerando 3, art. 1 punti 2, 7, 14), `references/fonti/dlgs-138-2024.md` (artt. 27 e 31)
 
 ## Input richiesti
 
@@ -143,6 +144,23 @@ Per ciascun fornitore qualificato come rilevante, raccogliere i 5 campi richiest
 | 72700000-7 | Servizi di reti informatiche |
 
 Per i codici esatti consultare il vocabolario ufficiale (https://simap.ted.europa.eu/cpv) o le pubblicazioni della Commissione Europea.
+
+### Passo 4-bis - Fornitori di servizi di sicurezza gestiti: certificazione (verifica facoltativa)
+
+Si applica ai fornitori rilevanti la cui fornitura e' un **servizio di sicurezza gestito**: "un servizio prestato a un terzo consistente nello svolgimento di attivita' o nella fornitura di assistenza per tali attivita', legate alla gestione dei rischi in materia di cybersicurezza, ad esempio servizi di gestione degli incidenti, test di penetrazione, audit di sicurezza e consulenza" (art. 3 co. 1 lett. a-bis D.Lgs. 123/2022, inserita dall'art. 1 co. 1 lett. a) n. 1 D.Lgs. 191/2026; stessa definizione all'art. 2 punto 14 bis Reg. (UE) 2019/881, inserito dal Reg. (UE) 2025/37).
+
+**Non e' un obbligo del soggetto NIS.** Il D.Lgs. 191/2026 estende ai servizi di sicurezza gestiti il quadro di certificazione del D.Lgs. 123/2022 (definizioni, vigilanza ACN, dichiarazioni UE di conformita', quadro sanzionatorio dell'art. 10), ma non modifica il D.Lgs. 138/2024 ne' la Det. ACN 127437/2026: i 5 campi dell'art. 18 restano invariati e la certificazione non e' tra questi. La certificazione resta volontaria, salvo diversa previsione del diritto dell'Unione o nazionale (art. 6 co. 3 D.Lgs. 123/2022, non modificato). Le vie per cui la certificazione puo' diventare obbligatoria, ricavabili dalle fonti lette, sono:
+- **lato fornitore**: in mancanza di un diritto dell'Unione armonizzato, l'ACN "puo' adottare [...] regolamentazioni tecniche nazionali in cui sia prevista una certificazione obbligatoria nel quadro di un sistema europeo di certificazione" (art. 6 co. 3 D.Lgs. 123/2022) e puo' stabilire l'obbligatorieta' della dichiarazione UE di conformita' (art. 7 co. 4); la sanzione per chi mette a disposizione sul mercato un servizio di sicurezza gestito privo del certificato obbligatorio grava sul fornitore (art. 10 co. 4, esteso ai servizi di sicurezza gestiti dall'art. 1 co. 1 lett. f) n. 2 D.Lgs. 191/2026);
+- **lato soggetto NIS**: una determinazione ACN ex art. 27 D.Lgs. 138/2024, che consente all'ACN di "imporre ai soggetti essenziali e ai soggetti importanti di utilizzare categorie di prodotti TIC, servizi TIC e processi TIC [...] certificati" (con le modalita' dell'art. 40 co. 5, obblighi proporzionati e tempi graduali ex art. 31 co. 1-2). L'art. 27 richiama le categorie dell'art. 2 co. 1 lett. ff), gg), hh) D.Lgs. 138/2024 e non nomina i servizi di sicurezza gestiti, ne' il D.Lgs. 191/2026 lo modifica: se un servizio di sicurezza gestito vi rientri come "servizio TIC" e' una questione interpretativa da verificare;
+- **diritto UE**: un atto che renda obbligatorio un sistema europeo di certificazione (art. 56 par. 3 Reg. (UE) 2019/881 come modificato: la Commissione valuta periodicamente questa necessita', anche per i servizi di sicurezza gestiti).
+
+Prima di concludere, verificare sulla pagina normativa NIS del portale ACN se e' stata adottata una determinazione ex art. 27 che riguardi questi servizi.
+
+**Verifica consigliata** (il considerando 3 del Reg. (UE) 2025/37, non vincolante, afferma che e' "importante" che i soggetti essenziali e importanti "esercitino una maggiore diligenza nella selezione dei fornitori di servizi di sicurezza gestiti"): nelle "Note interne" della tabella (non comunicate ad ACN) annotare per ciascun MSSP rilevante:
+- se il servizio specifico acquistato e' coperto da un **certificato europeo di cybersicurezza** o da una **dichiarazione UE di conformita'** in un sistema europeo di certificazione adottato con atto di esecuzione della Commissione (art. 49 par. 7 Reg. (UE) 2019/881 come modificato); in assenza di un sistema adottato per quel tipo di servizio, indicare "nessun sistema europeo applicabile";
+- se presente: sistema di certificazione, livello di affidabilita' (di base / sostanziale / elevato), organismo emittente, scadenza.
+
+L'esito non modifica il criterio di rilevanza: un MSSP resta rilevante (criterio 1, Allegato I p. 9) con o senza certificazione.
 
 ### Passo 5 - Compilazione della tabella di output
 

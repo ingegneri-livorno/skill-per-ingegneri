@@ -102,7 +102,7 @@ Estratti gia' preparati in `references/estratti/`:
 
 ## Stato attuale
 
-- Versione: vedi `CHANGELOG.md` (v0.3.0-alpha)
+- Versione: vedi `CHANGELOG.md` (v0.4.0-alpha)
 - Validazione: Livello 1 (auto-validazione autore) - Livello 2 da pianificare
 - Task files: 6 (`valuta-perimetro`, `gap-analysis-misure`, `elenco-fornitori-rilevanti`, `categorizza-attivita-servizi`, `verifica-incidente-significativo`, `check-obblighi-governance`)
 - Estratti normativi: 13 estratti preparati

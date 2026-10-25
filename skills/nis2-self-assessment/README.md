@@ -1,6 +1,6 @@
 # NIS2 self-assessment (D.Lgs. 138/2024)
 
-> Versione: 0.3.0-alpha
+> Versione: 0.4.0-alpha
 > Stato: in sviluppo - validazione Livello 1 (auto-validazione autore). Validazione Livello 2 con consulente cybersecurity da pianificare.
 
 Skill di supporto alla self-assessment NIS2 per organizzazioni italiane (private e pubbliche) ai sensi del **D.Lgs. 4 settembre 2024, n. 138** (recepimento della Direttiva (UE) 2022/2555) e dei provvedimenti attuativi dell'**Agenzia per la Cybersicurezza Nazionale (ACN)**.
