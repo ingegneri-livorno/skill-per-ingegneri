@@ -1,6 +1,6 @@
 # rsia-audit-stradale-dlgs35
 
-> Versione: 0.1.0-alpha
+> Versione: 0.2.0-alpha
 > Stato: in sviluppo (validazione Livello 1, autore: Claude Opus 4.7)
 
 Skill di supporto alle quattro procedure di gestione della sicurezza delle infrastrutture stradali del D.Lgs 15 marzo 2011, n. 35, nel testo modificato dal D.Lgs 15 novembre 2021, n. 213 (recepimento della Direttiva (UE) 2019/1936).
@@ -32,6 +32,7 @@ Vedi il `README.md` di root del repo per l'installazione delle skill in Claude C
 - D.Lgs 15 marzo 2011, n. 35 - testo originale (Gazzetta Ufficiale n. 81 del 8 aprile 2011).
 - D.Lgs 15 novembre 2021, n. 213 - decreto di modifica (Gazzetta Ufficiale n. 298 del 16 dicembre 2021).
 - Direttiva 2008/96/CE - atto-quadro UE (testo italiano disponibile da fonti MIT).
+- D.M. MIT 11 settembre 2026 - dispositivi di sicurezza stradale per i motociclisti (DSM) (Gazzetta Ufficiale n. 243 del 19 ottobre 2026), riferimento tecnico per i sistemi di contenimento, e D.M. MIT 1 aprile 2019 prot. n. 121 (Gazzetta Ufficiale n. 114 del 17 maggio 2019), regime previgente ancora applicabile fino all'entrata in vigore del decreto 2026 e ai lavori in transitorio.
 - Direttiva (UE) 2019/1936 - riferimento strutturale (contenuti applicati attraverso il D.Lgs 213/2021).
 
 Dettaglio completo, con hash SHA256 e link al download, in `references/sources.yaml`. Estratti testuali pertinenti in `references/estratti/`.
@@ -43,7 +44,7 @@ Dettaglio completo, con hash SHA256 e link al download, in `references/sources.y
 - La skill **non** copre le gallerie stradali (escluse dall'art. 1 e disciplinate dal D.Lgs 264/2006), le piste ciclabili, le strade non aperte al traffico generale.
 - La skill **non** determina la qualifica formale di un soggetto come controllore: l'iscrizione all'elenco nazionale e' di competenza del MIMS.
 - La skill **non** fornisce pareri legali su responsabilita' civili o penali derivanti dall'omissione delle procedure.
-- La skill al momento (v0.1.0-alpha) richiede validazione di Livello 2 da parte di un controllore della sicurezza stradale iscritto all'elenco MIMS, non ancora identificato.
+- La skill al momento (v0.2.0-alpha) richiede validazione di Livello 2 da parte di un controllore della sicurezza stradale iscritto all'elenco MIMS, non ancora identificato.
 
 ## Changelog
 

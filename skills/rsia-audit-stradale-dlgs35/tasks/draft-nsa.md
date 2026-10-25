@@ -17,6 +17,7 @@ Supportare l'impostazione e la redazione della **Valutazione della Sicurezza Str
 - Estratto del nuovo art. 5 D.Lgs 35/2011 (testo introdotto dall'art. 3 D.Lgs 213/2021): `references/estratti/dlgs-213-2021.md` sezione "Art. 3".
 - Estratto del nuovo art. 6-bis (Seguito delle procedure per le strade aperte al traffico, inserito dall'art. 5 D.Lgs 213/2021): `references/estratti/dlgs-213-2021.md` sezione "Art. 5 - Art. 6-bis".
 - Estratto del nuovo Allegato III (sostituito dall'art. 13 D.Lgs 213/2021): `references/estratti/dlgs-213-2021.md` sezione "Art. 13".
+- Estratto del D.M. MIT 11 settembre 2026 sui DSM, riferimento tecnico per la componente 6 dell'Allegato III: `references/estratti/dm-mit-11-9-2026-dsm.md`.
 
 ## Procedura
 
@@ -43,7 +44,7 @@ La valutazione tiene conto delle **componenti indicative dell'Allegato III** (so
 3. **Dati sugli incidenti**: numero, ubicazione e causa degli incidenti mortali e con feriti gravi per gruppo di utenti.
 4. **Caratteristiche operative**: limite di velocita' (generale, motocicli, camion), velocita' di esercizio (85esimo percentile), gestione velocita', dispositivi STI (segnalatori code, pannelli a messaggio variabile), segnali presso scuole.
 5. **Caratteristiche geometriche**: sezione trasversale (numero/tipo/larghezza corsie, banchine, mediane, piste, sentieri), curvatura orizzontale, grado e allineamento verticale, visibilita' e distanze di visibilita'.
-6. **Oggetti, zone libere da ostacoli, sistemi stradali di contenimento**: ambiente al margine, ostacoli fissi (pali, alberi), distanza, densita', rallentatori acustici, sistemi di contenimento.
+6. **Oggetti, zone libere da ostacoli, sistemi stradali di contenimento**: ambiente al margine, ostacoli fissi (pali, alberi), distanza, densita', rallentatori acustici, sistemi di contenimento. Riferimento tecnico per i motociclisti sono i decreti MIT sui DSM (estratto `references/estratti/dm-mit-11-9-2026-dsm.md`, che indica quale decreto applicare in base alla data). Dall'entrata in vigore del D.M. MIT 11/9/2026 (centottanta giorni dopo la pubblicazione del 19/10/2026, art. 7 c. 3), per le barriere su strade con velocita' di progetto >= 70 km/h (art. 1 c. 1): nelle zone dell'art. 4 c. 2 (curve con raggio < 250 m, discese e restringimenti pericolosi segnalati, tratti con incidenti di motocicli o ciclomotori con morte o grave infortunio nell'ultimo triennio) con barriera laterale gia' in esercizio, l'ente proprietario o gestore deve effettuare una valutazione del rischio di urto del motociclista, con relazione motivata di ingegnere iscritto all'ordine (art. 5 cc. 1-2). Il decreto non collega questa valutazione alla NSA: la skill la usa solo per segnalare, nella componente 6, l'eventuale assenza di DSM o della valutazione dell'ente in quelle zone.
 7. **Ponti e gallerie**: presenza, numero, informazioni pertinenti, rischi visivi.
 8. **Incroci**: tipo, canalizzazione, qualita', volume, passaggi a livello.
 9. **Manutenzione**: difetti manto, resistenza allo slittamento, condizioni banchine, condizioni segnaletica, condizioni sistemi di contenimento.

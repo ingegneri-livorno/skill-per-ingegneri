@@ -2548,7 +2548,10 @@ skills:
     in esercizio'
   normative_refs:
   - D.Lgs. 35/2011 modificato dal D.Lgs. 213/2021 (recepimento Dir. UE 2019/1936)
-  version: 0.1.0-alpha
+  - D.M. MIT 11 settembre 2026 - dispositivi di sicurezza stradale per i motociclisti (DSM), GU n. 243 del 19/10/2026
+  - D.M. MIT 1 aprile 2019 prot. n. 121 - DSM, regime previgente (abrogato dal D.M. 11/9/2026 dalla sua entrata in vigore,
+    salvo transitorio)
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - rsia

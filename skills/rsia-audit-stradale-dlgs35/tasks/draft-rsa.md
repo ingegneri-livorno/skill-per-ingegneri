@@ -23,6 +23,7 @@ Supportare la redazione o la verifica del **Controllo della Sicurezza Stradale (
 - Estratto dell'art. 4 D.Lgs 35/2011 (testo originale, non modificato dal D.Lgs 213/2021): `references/estratti/dlgs-35-2011.md` sezione "Art. 4".
 - Estratto dell'Allegato II D.Lgs 35/2011 modificato dall'art. 11 D.Lgs 213/2021: `references/estratti/dlgs-35-2011.md` sezione "Allegato II" e `references/estratti/dlgs-213-2021.md` sezione "Art. 11".
 - Estratto della Direttiva 2008/96/CE art. 4 e Allegato II: `references/estratti/dir-2008-96-ce.md`.
+- Estratto del D.M. MIT 11 settembre 2026 sui dispositivi di sicurezza stradale per i motociclisti (DSM), riferimento tecnico per l'Allegato II punto 2 lett. f): `references/estratti/dm-mit-11-9-2026-dsm.md`.
 
 ## Procedura
 
@@ -69,6 +70,13 @@ Punto 2 dell'Allegato II:
 - **d)** valutazione del contesto ai margini dell'infrastruttura (vegetazione, ostacoli fissi ai margini della strada);
 - **e)** analisi delle pertinenze di servizio (aree di servizio, di sosta e di parcheggio);
 - **f)** analisi di sistemi stradali di contenimento (barriere stradali di sicurezza) con particolare riferimento all'individuazione degli elementi atti a ridurre la lesivita' degli **utenti della strada vulnerabili** (termine sostituito dall'art. 11 D.Lgs 213/2021).
+  - **Riferimento tecnico per i motociclisti: decreti MIT sui DSM** (estratto `references/estratti/dm-mit-11-9-2026-dsm.md`). Non disciplinano l'RSA: sono la regola tecnica con cui il controllore puo' verificare il progetto dei margini. Per prima cosa scegliere il decreto applicabile (art. 7 D.M. 11/9/2026): il D.M. 11/9/2026 (GU SG n. 243 del 19/10/2026) entra in vigore centottanta giorni dopo la pubblicazione (art. 7 c. 3) e da quel momento abroga il D.M. 1 aprile 2019, prot. n. 121 (art. 7 c. 2); fino ad allora, e dopo per i lavori di installazione di DSM con affidamento in corso o con PFTE gia' approvato alla data di entrata in vigore (art. 7 c. 1), si applica il D.M. 1 aprile 2019, le cui verifiche sono nella sezione "Regime previgente" dell'estratto. Chiedere all'utente data dell'audit, data di approvazione del PFTE e stato dell'affidamento.
+  - Con il D.M. 11/9/2026 (barriere su strade con velocita' di progetto >= 70 km/h, art. 1 c. 1) verificare nel progetto:
+    - presenza di DSM continui o di sistema di protezione del motociclista di tipo integrato almeno nelle zone dell'art. 4 c. 2: lato esterno delle curve con raggio < 250 m (lett. a), discese pericolose con segnale fig. II 15 (lett. b), restringimenti pericolosi con segnali fig. II 17/II 18/II 19 (lett. c), tratti con incidenti di motocicli o ciclomotori con morte o grave infortunio nell'ultimo triennio (lett. d);
+    - estensione dell'installazione per tutta la zona e per un tratto minimo non inferiore a 10 m prima del restringimento pericoloso, oltre l'estremita' sul lato esterno della curva e oltre le estremita' della discesa (art. 4 c. 5; il testo non chiarisce se il minimo di 10 m valga anche per curve e discese: dichiarare la lettura adottata);
+    - allegato progettuale redatto da ingegnere iscritto all'ordine, con relazione motivata e valutazione del rischio di urto del motociclista e del passeggero (art. 4 c. 1);
+    - se il DSM non e' previsto in una zona dell'art. 4 c. 2: relazione tecnica motivata del progettista (art. 4 c. 3) o relazione dell'ente per la deroga per condizioni eccezionali legate alla manutenzione, es. innevamento (art. 4 c. 6);
+    - DSM conformi alla UNI CEN/TS 17342 con dichiarazione del fabbricante (art. 2 cc. 2-3); i DSM conformi alla previgente UNI CEN/TS 1317-8 gia' in esercizio o gia' immessi sul mercato alla data di entrata in vigore rispondono ai soli requisiti di mitigazione del rischio di urto (art. 5 c. 4), restano fermi gli altri requisiti; per DSM aggiuntivo su barriera marcata CE, che "in linea generale" ne costituisce modifica, valutazione dell'organismo notificato (art. 3 c. 3), oppure marcatura CE del sistema integrato (art. 3 c. 2).
 
 #### Fase 3 - Progettazione esecutiva
 
