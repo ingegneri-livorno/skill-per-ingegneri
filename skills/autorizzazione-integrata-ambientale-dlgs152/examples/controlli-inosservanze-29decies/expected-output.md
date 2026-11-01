@@ -2,8 +2,7 @@
 
 ## 1. Chi controlla e con quale periodicità
 
-- Gli **accertamenti** sul rispetto delle condizioni dell'AIA sono svolti dall'**ISPRA** (impianti di
-  competenza statale) o dalle **ARPA/APPA** (impianti di competenza regionale).
+- Gli **accertamenti** sul rispetto delle condizioni dell'AIA sono svolti dall'**ISPRA** (impianti di competenza statale) o, negli altri casi, dall'**autorità di controllo individuata dalla regione** (in mancanza, l'autorità competente) avvalendosi delle **ARPA/APPA**; dal D.Lgs. 197/2026 (in vigore dal 12/11/2026) controllano anche gli obblighi sul **sistema di gestione ambientale**.
 - Le **ispezioni ordinarie** hanno **periodicità basata sul rischio**, determinata da una valutazione
   sistematica: **non oltre 1 anno** per le installazioni a **rischio più elevato**, **3 anni** per
   quelle a **rischio meno elevato**, e **6 mesi** quando la precedente ispezione ha evidenziato una
@@ -21,8 +20,8 @@ In caso di **inosservanza** delle condizioni (come il superamento di un VLE), l'
 procede, secondo la gravità:
 
 - **diffida**, assegnando un termine per il rientro nella conformità;
-- **diffida e contestuale sospensione** dell'attività per il tempo necessario, se vi è **pericolo per
-  la salute o per l'ambiente**;
+- **diffida e contestuale sospensione senza indugio** dell'attività (o della parte interessata), se vi è **pericolo immediato per la salute o per l'ambiente**;
+- **sospensione** fino al ripristino della conformità se una violazione **persistente** mette in pericolo la salute o ha serie ripercussioni sull'ambiente, o se la violazione è **reiterata più di due volte in un anno** (lett. b-bis, D.Lgs. 197/2026);
 - in caso di **inosservanze reiterate** o di **violazioni gravi**, **revoca** dell'AIA e **chiusura**
   dell'installazione.
 
