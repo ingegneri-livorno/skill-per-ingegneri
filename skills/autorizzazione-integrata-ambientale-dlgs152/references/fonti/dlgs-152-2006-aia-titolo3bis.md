@@ -8,7 +8,7 @@
 > **Atto**: D.Lgs. 3 aprile 2006, n. 152 (codice 006G0171), G.U. 14 aprile 2006.
 > **Fonte**: Normattiva, pagina indice pinnata a `!vig=2026-07-17`.
 > URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152!vig=2026-07-17
-> SHA256 pagina indice: c2175fe5c9313db1087d444b07e71d727154140d579ffcf6357ababa5d57b45c
+> SHA256 pagina indice: 6652cbbcfa814b819ef2601b8de1e8059bfc2fdc2f241ec2c83a2a3bdc495d31 (riverificata 2026-11-01; hash al primo accesso 2026-07-17: c2175fe5c9313db1087d444b07e71d727154140d579ffcf6357ababa5d57b45c)
 > Articoli caricati via AJAX (caricaArticolo, codice 006G0171, idGruppo 9, dataPubblicazioneGazzetta
 > 2006-04-14): 29-ter (idSottoArticolo 3, v3), 29-quater (idSottoArticolo 4, v4), 29-sexies
 > (idSottoArticolo 6, v5), 29-octies (idSottoArticolo 8, v2), 29-decies (idSottoArticolo 10, v5).
@@ -16,6 +16,8 @@
 > provvedimenti successivi. E' trascritto il testo operativo dei commi; l'apparato "AGGIORNAMENTO"
 > (note storiche) e' omesso e consultabile sulla fonte. Gli Allegati VIII/XII (elenco attivita' IPPC,
 > tabellari) non sono riprodotti.
+>
+> **Attenzione (2026-11-01)**: questo e' il testo **previgente** al D.Lgs. 28 settembre 2026, n. 197 (recepimento IED2, in vigore dal **12/11/2026**), che modifica gli artt. 29-ter, 29-quater, 29-sexies, 29-octies e 29-decies qui trascritti. Le novelle sono trascritte in `references/fonti/dlgs-197-2026-ied2.md`; per le installazioni gia' autorizzate l'art. 43 del D.Lgs. 197/2026 rinvia in parte al testo vigente al 4 agosto 2024. Non e' stato verificato che il testo qui trascritto (vig. 2026-07-17) coincida con quello vigente al 4 agosto 2024.
 
 
 ## Art. 29-ter - Domanda di autorizzazione integrata ambientale

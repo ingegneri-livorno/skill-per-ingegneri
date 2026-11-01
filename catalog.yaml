@@ -237,14 +237,18 @@ skills:
     (art. 29-decies). Non redige l''AIA.'
   normative_refs:
   - D.Lgs. 3 aprile 2006, n. 152 - Parte II, Titolo III-bis, artt. 29-ter, 29-quater, 29-sexies, 29-octies, 29-decies
-  - 'Richiamati: Allegati VIII/XII (attività IPPC), conclusioni sulle BAT/BREF, artt. 5, 6, 29-septies, 29-quattuordecies
-    (sanzioni)'
-  version: 0.1.0-alpha
+  - D.Lgs. 28 settembre 2026, n. 197 - recepimento Dir. (UE) 2024/1785 (IED2), modifiche al D.Lgs. 152/2006, in vigore dal
+    12/11/2026
+  - 'Richiamati: art. 8-bis (Commissione AIA-IPPC), Allegati VIII/VIII-bis/XII, conclusioni sulle BAT/BREF, artt. 5, 6, 29-septies,
+    29-quattuordecies (sanzioni)'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - aia
   - ippc
   - dlgs-152-2006
+  - dlgs-197-2026
+  - ied2
   - autorizzazione-ambientale
   - bat
 - id: autorizzazione-paesaggistica-ordinaria-dlgs42
