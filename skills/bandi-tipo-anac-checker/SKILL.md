@@ -9,7 +9,8 @@ normative_refs:
   - "D.Lgs. 36/2023"
   - "Bandi-tipo ANAC (n. 1/2023 agg. Delibera 148/2026, n. 2/2026 SIA Delibera 153/2026)"
   - "D.Lgs. 36/2023 art. 125 (anticipazione) e L. 152/2026 art. 1-bis D.L. 107/2026 (sospensione temporanea del recupero, lavori in esecuzione, fino al 31/12/2026)"
-version: 0.4.0
+  - "D.L. 200/2026 art. 1 (ANAC: organi in carica limitati ad atti di ordinaria amministrazione e indifferibili e urgenti, max 45 giorni dal 7/11/2026)"
+version: 0.5.0
 status: alpha
 tags:
   - anac
@@ -79,6 +80,20 @@ ANAC pubblica schemi di disciplinare articolati per tipo di contratto e criterio
 Per le procedure sotto soglia: gli schemi sopra soglia si applicano come riferimento
 con adattamenti motivati; verificare se ANAC ha pubblicato schemi specifici.
 
+## Regime transitorio ANAC (D.L. 200/2026) - stato all'8 novembre 2026
+
+L'**art. 1 del D.L. 6 novembre 2026, n. 200** (GU SG n. 259 del 6/11/2026, in vigore dal **7/11/2026**, art. 2) stabilisce che il presidente e i componenti dell'ANAC nominati con D.P.R. 11 settembre 2020 continuano a esercitare le funzioni **"limitatamente agli atti di ordinaria amministrazione e a quelli indifferibili e urgenti"**, fino alla nomina dei nuovi organi e **comunque non oltre 45 giorni** dall'entrata in vigore. Testo in [`references/fonti/dl-200-2026-gu-259.md`](references/fonti/dl-200-2026-gu-259.md).
+
+Il limite riguarda solo l'attivita' di presidente e componenti: il decreto non contiene disposizioni sugli uffici o sui servizi operativi dell'Autorita'.
+
+Cosa ne segue per questa skill:
+- **Segnalalo all'utente** quando la verifica riguarda schemi "da verificare su portale ANAC" (tabella sopra) o aggiornamenti attesi: nuovi bandi-tipo o delibere di aggiornamento potrebbero slittare finche' dura il regime. E' una possibilita', non un effetto scritto nel decreto.
+- **Gli schemi gia' adottati restano il riferimento**: il decreto non nomina bandi-tipo, delibere o procedure di gara, quindi non tocca il Bando tipo n. 1/2023 (Delibera 148/2026) ne' il Bando tipo n. 2/2026 (Delibera 153/2026). La skill continua ad applicarli come sopra.
+- **Quando ricontrollare** (date calcolate da noi, escluso il giorno iniziale):
+  - alla **nomina dei nuovi organi ANAC**, che chiude il regime prima del termine;
+  - allo scadere dei **45 giorni**, il **22/12/2026**: il decreto non dice cosa accade se a quella data le nomine non sono avvenute;
+  - alla **legge di conversione**: per l'art. 77 Cost. il decreto perde efficacia sin dall'inizio se non convertito entro 60 giorni dalla pubblicazione, cioe' entro il **5/1/2027** ([`references/fonti/costituzione-art-77.md`](references/fonti/costituzione-art-77.md)). La conversione puo' avvenire con modificazioni (come per il D.L. 107/2026, convertito con modificazioni dalla L. 152/2026, fonte gia' nella skill): ricontrollare questa sezione alla pubblicazione della legge di conversione in GU, e comunque entro il 5/1/2027.
+
 ## Nota sull'anticipazione nei disciplinari lavori (deroga a termine)
 
 L'**art. 1-bis del D.L. 26 giugno 2026, n. 107**, inserito dalla **L. 7 agosto 2026,
@@ -137,6 +152,7 @@ Riferimenti completi in [`references/sources.yaml`](references/sources.yaml). Fo
 - ANAC - Bando tipo n. 1/2023 testo consolidato (Delibera 148 del 1 aprile 2026), schema disciplinare servizi/forniture OEPV sopra soglia.
 - ANAC - Bando tipo n. 2/2026 (Delibera 153 del 15 aprile 2026), schema disciplinare servizi di ingegneria e architettura sopra soglia OEPV.
 - Regolamento UE 2024/1689 (AI Act); Legge 23 settembre 2025 n. 132 (norma italiana AI, art. 13 per professionisti).
+- D.L. 6 novembre 2026 n. 200, art. 1 (regime transitorio degli organi ANAC); Costituzione art. 77 (termine di conversione).
 
 Estratti testuali in [`references/estratti/`](references/estratti/):
 - [`dlgs-36-artt-clausole-disciplinare.md`](references/estratti/dlgs-36-artt-clausole-disciplinare.md) - artt. 74, 87, 90, 94-103, 117-120.

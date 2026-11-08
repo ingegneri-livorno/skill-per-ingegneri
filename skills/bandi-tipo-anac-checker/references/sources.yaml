@@ -1,6 +1,6 @@
 schema_version: 1
 skill: bandi-tipo-anac-checker
-last_verified: 2026-08-25
+last_verified: 2026-11-08
 
 # Fonti normative per la skill di verifica conformita' disciplinari di gara
 # agli schemi ANAC (bandi-tipo) ai sensi del D.Lgs. 36/2023.
@@ -234,6 +234,51 @@ sources:
       Deroga a termine: scade il 31 dicembre 2026; esclusi gli interventi finanziati
       anche solo in parte con risorse PNRR.
       Entrata in vigore della legge di conversione: 21 agosto 2026 (art. 1, c. 2).
+
+  - id: dl-200-2026-gu-259
+    title: "Decreto-legge 6 novembre 2026, n. 200 - Misure urgenti per assicurare la continuita' delle funzioni dell'Autorita' nazionale anticorruzione (ANAC) - GU Serie generale n. 259 del 06/11/2026"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/id/2026/11/06/26G00223/sg
+    download_url: https://www.gazzettaufficiale.it/eli/gu/2026/11/06/259/sg/pdf
+    accessed: 2026-11-08
+    sha256: 02250b9e1c6e7b15099484b91fdb10bb58e611f546f1acbd70efbbea598604d8
+    license: public-domain-italian-law
+    binary_path: not_in_repo/gu-259-2026-11-06.pdf
+    md_path: references/fonti/dl-200-2026-gu-259.md
+    excerpt_paths: []
+    notes: |
+      Codice redazionale 26G00223, pag. 1 del fascicolo. Il PDF hashato e' il
+      fascicolo integrale della GU SG n. 259; due download del 2026-11-08 con
+      hash identico. Atto di due articoli, trascritto per intero.
+      Art. 1: presidente e componenti ANAC nominati con D.P.R. 11/9/2020
+      esercitano le funzioni solo per atti di ordinaria amministrazione e atti
+      indifferibili e urgenti, fino alla nomina dei nuovi e comunque non oltre
+      45 giorni dall'entrata in vigore.
+      Art. 2: entrata in vigore il giorno successivo alla pubblicazione, quindi
+      7 novembre 2026 (confermato dalla pagina dell'atto su gazzettaufficiale.it).
+      RILIEVO PER QUESTA SKILL: il testo non nomina bandi-tipo, delibere ne'
+      procedure di gara. La skill lo usa solo come avviso di contesto: possibili
+      ritardi di nuovi bandi-tipo o aggiornamenti ANAC; nessun effetto testuale
+      sugli schemi gia' adottati (Delibere 148/2026 e 153/2026).
+      Da riverificare: alla nomina dei nuovi organi ANAC, allo scadere dei 45
+      giorni e alla legge di conversione (termine art. 77 Cost., fonte
+      costituzione-art-77).
+
+  - id: costituzione-art-77
+    title: "Costituzione della Repubblica italiana - art. 77 (decreti-legge, conversione entro sessanta giorni)"
+    type: costituzione
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27~art77
+    accessed: 2026-11-08
+    sha256: 3d1e1feb341171674ee4e996782aaa54d08538c073b4b82f3c8fa9a06a170f90
+    license: public-domain-italian-law
+    binary_path: not_in_repo/costituzione-art-77.html
+    md_path: references/fonti/costituzione-art-77.md
+    excerpt_paths: []
+    notes: |
+      Pagina Normattiva dell'art. 77 Cost.; due download del 2026-11-08 con hash
+      identico. Usata solo per il termine di conversione del D.L. 200/2026:
+      i decreti perdono efficacia sin dall'inizio se non convertiti in legge
+      entro sessanta giorni dalla pubblicazione (GU 6/11/2026).
 
   - id: regolamento-esecuzione-dlgs-36-allegati
     title: "Allegati al D.Lgs. 36/2023 - Allegato I.14 (schema tipo atti concessori)"

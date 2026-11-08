@@ -41,6 +41,7 @@ ln -sfn "$(pwd)/skills/bandi-tipo-anac-checker" "$HOME/.agents/skills/bandi-tipo
 - L. 7 agosto 2026 n. 152 (conversione del D.L. 26 giugno 2026 n. 107), art. 1-bis -
   sospensione temporanea del recupero dell'anticipazione ex art. 125 D.Lgs. 36/2023,
   GU Serie generale n. 192 del 20/8/2026
+- D.L. 6 novembre 2026 n. 200, art. 1 - organi ANAC limitati ad atti di ordinaria amministrazione e indifferibili e urgenti (max 45 giorni dal 7/11/2026), GU Serie generale n. 259 del 6/11/2026
 
 Dettaglio completo in `references/sources.yaml`.
 
