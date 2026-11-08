@@ -1,10 +1,11 @@
 schema_version: 1
 skill: autorizzazione-integrata-ambientale-dlgs152
-last_verified: 2026-07-17
+last_verified: 2026-11-01
 
 # Fonte per l'AUTORIZZAZIONE INTEGRATA AMBIENTALE (AIA/IPPC): domanda, procedura di rilascio,
 # contenuto e condizioni (VLE su BAT, monitoraggio), rinnovo e riesame, rispetto delle condizioni
-# e controlli/ispezioni. Fonte: D.Lgs. 3 aprile 2006, n. 152, Parte II, Titolo III-bis.
+# e controlli/ispezioni. Fonte: D.Lgs. 3 aprile 2006, n. 152, Parte II, Titolo III-bis, come
+# modificato dal D.Lgs. 28 settembre 2026, n. 197 (recepimento IED2, in vigore dal 12/11/2026).
 
 sources:
   - id: dlgs-152-2006-aia-titolo3bis
@@ -12,7 +13,7 @@ sources:
     type: decreto-legislativo
     url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152!vig=2026-07-17
     accessed: 2026-07-17
-    sha256: c2175fe5c9313db1087d444b07e71d727154140d579ffcf6357ababa5d57b45c
+    sha256: 6652cbbcfa814b819ef2601b8de1e8059bfc2fdc2f241ec2c83a2a3bdc495d31
     license: public-domain
     binary_path: not_in_repo/dlgs152_17.html
     md_path: references/fonti/dlgs-152-2006-aia-titolo3bis.md
@@ -42,3 +43,37 @@ sources:
       installazione, gestore, modifica sostanziale), 6 c. 12-16, 29-bis, 29-quinquies, 29-septies,
       29-novies, 29-undecies, 29-quattuordecies (sanzioni) citati e non trascritti. La skill inquadra
       procedura/contenuto/controlli e non redige la domanda/AIA né individua le BAT applicabili.
+      RIVERIFICA 2026-11-01: la stessa pagina indice pinnata (!vig=2026-07-17) restituisce ora, in
+      modo stabile (doppio download), SHA256 6652cbbc... invece di c2175fe5... (variazione della
+      pagina Normattiva). Le versioni degli articoli indicizzati sono invariate (29-ter v3, 29-quater
+      v4, 29-sexies v5, 29-octies v2, 29-decies v5); riscaricati via caricaArticolo e confrontati
+      frase per frase con la trascrizione: testo dei commi identico (differenze solo nell'interfaccia
+      della pagina e nelle note AGGIORNAMENTO, omesse per scelta).
+
+  - id: dlgs-197-2026-ied2
+    title: "D.Lgs. 28 settembre 2026, n. 197 - Attuazione della direttiva (UE) 2024/1785 (IED2) - modifiche al D.Lgs. 152/2006 (GU SG n. 251 del 28-10-2026)"
+    type: decreto-legislativo
+    url: https://www.gazzettaufficiale.it/eli/gu/2026/10/28/251/sg/pdf
+    accessed: 2026-11-01
+    sha256: d4fd3721ccdf315a77119215ce1a976fe4b052238e71100b6f5948230fa2fe52
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-251-2026-10-28.pdf
+    md_path: references/fonti/dlgs-197-2026-ied2.md
+    excerpt_path: references/estratti/aia-checklist.md
+    notes: |
+      Codice redazionale 26G00213. Pagina dell'atto: https://www.gazzettaufficiale.it/eli/id/2026/10/28/26G00213/sg
+      (riporta "Entrata in vigore del provvedimento: 12/11/2026"). Il file hashato e' il fascicolo PDF
+      integrale della GU SG n. 251 del 28-10-2026 (doppio download identico, 2026-11-01); il decreto
+      occupa le pagg. 1-25 (testo) piu' le note redazionali. Letto per intero (Capo I artt. 1-42, Capo
+      II artt. 43-45, Allegato A) ed estratto con pdftotext; trascritti verbatim in
+      references/fonti/dlgs-197-2026-ied2.md gli articoli usati dalla skill: artt. 1, 2, 3 (artt. 4,
+      5, 6 - ambito, definizioni, art. 6 c. 13), 5 (art. 8-bis Commissione AIA-IPPC), 7 (art. 10
+      coordinamento VIA-AIA), 10 (art. 29-ter), 11 (art. 29-quater), 13 (art. 29-sexies), 14 (art.
+      29-septies), 15 (art. 29-octies), 16 (art. 29-nonies), 17 (art. 29-decies), 20 (art.
+      29-terdecies, INCITE), 22 (Titolo III-ter, artt. 29-quinquiesdecies - 29-septiesdecies c. 3),
+      35 (Allegato VIII), 36 + Allegato A (nuovo Allegato VIII-bis), 37 (abrogazione Allegato X), 43
+      (transitorie), 44 (abrogazioni). L'atto NON modifica l'Allegato XII.
+      LIMITE: le modifiche sono lette sul testo dell'atto modificativo (novelle), non su un testo
+      consolidato del D.Lgs. 152/2006 (vigenza dal 12/11/2026, successiva alla data di accesso). La
+      fonte dlgs-152-2006-aia-titolo3bis resta il testo previgente (vig. 2026-07-17) e va riallineata
+      al consolidato Normattiva dopo il 12/11/2026.

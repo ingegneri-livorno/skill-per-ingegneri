@@ -1,11 +1,11 @@
 # autorizzazione-integrata-ambientale-dlgs152
 
-> Versione: 0.1.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con tecnico ambientale / autorità competente o ARPA da completare)
+> Versione: 0.2.0-alpha | Stato: in sviluppo (validazione Livello 1; Livello 2 con tecnico ambientale / autorità competente o ARPA da completare)
 
 Skill di **supporto documentale** all'**Autorizzazione Integrata Ambientale (AIA/IPPC)**: domanda,
 procedura di rilascio, contenuto e condizioni (VLE su BAT), rinnovo/riesame, rispetto delle condizioni
 e controlli/ispezioni, secondo il **D.Lgs. 3 aprile 2006, n. 152, Parte II, Titolo III-bis** (artt.
-29-ter, 29-quater, 29-sexies, 29-octies, 29-decies).
+29-ter, 29-quater, 29-sexies, 29-octies, 29-decies), come modificato dal **D.Lgs. 28 settembre 2026, n. 197** (recepimento IED2, in vigore dal 12/11/2026).
 
 **Non redige** la domanda/AIA, **non individua** le BAT e **non sostituisce** il gestore, l'autorità
 competente o ISPRA/ARPA: inquadra procedura, contenuto e controlli.
@@ -29,7 +29,8 @@ Nucleo: **domanda** (art. 29-ter); **procedura** con conferenza di servizi e ter
 
 - **D.Lgs. 3 aprile 2006, n. 152** (Parte II, Titolo III-bis) - artt. 29-ter, 29-quater, 29-sexies,
   29-octies, 29-decies - testo vigente su Normattiva (indice pinnato a `!vig=2026-07-17`, codice
-  006G0171)
+  006G0171) - testo previgente al D.Lgs. 197/2026
+- **D.Lgs. 28 settembre 2026, n. 197** - GU SG n. 251 del 28-10-2026 (codice 26G00213), in vigore dal 12/11/2026: modifiche al Titolo III-bis, art. 8-bis, Allegato VIII, nuovo Allegato VIII-bis, regime transitorio (art. 43)
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 
@@ -37,8 +38,7 @@ Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratt
 
 - **Non redige** la domanda né l'AIA e **non compila** la modulistica dell'autorità competente.
 - **Non individua** le **BAT** applicabili né i **BAT-AEL**: rinvia alle conclusioni sulle BAT (BREF).
-- **Non riproduce** gli **Allegati VIII/XII** (attività IPPC e soglie): l'assoggettabilità va
-  verificata sugli allegati.
+- **Non riproduce** per intero gli **Allegati VIII/XII** (riporta solo le modifiche del D.Lgs. 197/2026 all'Allegato VIII e il nuovo Allegato VIII-bis): l'assoggettabilità va verificata sugli allegati.
 - **Non sostituisce** il gestore, l'autorità competente o ISPRA/ARPA; non tratta le sanzioni (art.
   29-quattuordecies).
 
