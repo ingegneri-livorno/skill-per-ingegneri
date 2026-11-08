@@ -407,7 +407,9 @@ skills:
   - Bandi-tipo ANAC (n. 1/2023 agg. Delibera 148/2026, n. 2/2026 SIA Delibera 153/2026)
   - D.Lgs. 36/2023 art. 125 (anticipazione) e L. 152/2026 art. 1-bis D.L. 107/2026 (sospensione temporanea del recupero, lavori
     in esecuzione, fino al 31/12/2026)
-  version: 0.4.0
+  - 'D.L. 200/2026 art. 1 (ANAC: organi in carica limitati ad atti di ordinaria amministrazione e indifferibili e urgenti,
+    max 45 giorni dal 7/11/2026)'
+  version: 0.5.0
   status: alpha
   tags:
   - anac

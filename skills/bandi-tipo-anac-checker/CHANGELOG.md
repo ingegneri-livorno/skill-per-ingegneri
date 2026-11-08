@@ -7,6 +7,23 @@ e questa skill aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-11-08
+
+### Added (closes #519)
+
+Fonti scaricate, hashate e lette (Regola zero), due download con hash identico:
+- **GU Serie generale n. 259 del 6-11-2026** (PDF integrale del fascicolo), SHA256 02250b9e1c6e7b15099484b91fdb10bb58e611f546f1acbd70efbbea598604d8, contenente il **D.L. 6 novembre 2026, n. 200** (cod. red. 26G00223). Trascrizione verbatim integrale in `references/fonti/dl-200-2026-gu-259.md`.
+- **Costituzione art. 77** (pagina Normattiva), SHA256 3d1e1feb341171674ee4e996782aaa54d08538c073b4b82f3c8fa9a06a170f90, per il termine di conversione di 60 giorni. Trascrizione in `references/fonti/costituzione-art-77.md`.
+
+### Changed
+
+- `SKILL.md`: nuova sezione "Regime transitorio ANAC (D.L. 200/2026) - stato all'8 novembre 2026": organi ANAC limitati ad atti di ordinaria amministrazione e indifferibili e urgenti fino alla nomina dei nuovi e comunque per non oltre 45 giorni dal 7/11/2026; possibili ritardi di nuovi bandi-tipo; Delibere 148/2026 e 153/2026 restano il riferimento; date di riverifica (22/12/2026, 5/1/2027, nomina dei nuovi organi). Nuovo `normative_refs`; version 0.4.0 -> 0.5.0.
+- `references/sources.yaml`: nuove fonti `dl-200-2026-gu-259` e `costituzione-art-77`; `last_verified` 2026-08-25 -> 2026-11-08.
+
+### Nota sulla premessa della issue #519
+
+La issue indica l'entrata in vigore "dalla stessa data" della pubblicazione. L'art. 2 del decreto dispone l'entrata in vigore il giorno successivo, **7 novembre 2026**, come conferma la pagina dell'atto su gazzettaufficiale.it: i 45 giorni decorrono da li'. I nomi dei candidati alle nomine citati nella issue non sono nel testo GU e non sono riportati nella skill.
+
 ## [0.4.0] - 2026-08-25
 
 ### Added (closes #496)
