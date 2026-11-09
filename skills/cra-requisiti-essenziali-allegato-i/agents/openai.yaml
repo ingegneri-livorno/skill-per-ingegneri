@@ -1,0 +1,17 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: CRA - Requisiti essenziali (allegato I) e obblighi del fabbricante
+short_description: |
+  Gap analysis di un prodotto con elementi digitali rispetto ai requisiti
+  essenziali di cibersicurezza dell'allegato I del Regolamento (UE) 2024/2847 -
+  Cyber Resilience Act, applicabili dall'11 dicembre 2027: valutazione dei
+  rischi, requisiti di prodotto, gestione delle vulnerabilita', SBOM, periodo
+  di assistenza e informazioni per l'utilizzatore.
+default_prompt: |
+  Fabbrichiamo un prodotto con elementi digitali che immetteremo sul mercato
+  UE dopo l'11 dicembre 2027. Aiutami a fare la gap analysis rispetto ai
+  requisiti essenziali dell'allegato I del CRA e agli obblighi dell'art. 13:
+  valutazione dei rischi, requisiti di prodotto, gestione delle vulnerabilita',
+  periodo di assistenza e istruzioni per l'utilizzatore. Ti descrivo il
+  prodotto, la sua configurazione e i nostri processi.

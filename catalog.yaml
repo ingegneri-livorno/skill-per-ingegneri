@@ -34,7 +34,7 @@ areas:
 - id: software-dati-cybersecurity
   name: Software, dati & cybersecurity
   order: 8
-  count: 11
+  count: 12
 - id: forense
   name: CTU & ingegneria forense
   order: 9
@@ -1123,6 +1123,25 @@ skills:
   - cra
   - reg-ue-2024-2847
   - cyber
+- id: cra-requisiti-essenziali-allegato-i
+  area: software-dati-cybersecurity
+  title: CRA - Requisiti essenziali (allegato I) e obblighi del fabbricante
+  summary: 'Gap analysis di un prodotto con elementi digitali rispetto ai requisiti essenziali dell''allegato I del CRA (Reg.
+    UE 2024/2847) e agli obblighi dell''art. 13: valutazione dei rischi, requisiti di prodotto, gestione vulnerabilita'',
+    SBOM, periodo di assistenza, istruzioni.'
+  normative_refs:
+  - Reg. UE 2024/2847 (Cyber Resilience Act) allegato I parti I e II
+  - Reg. UE 2024/2847 artt. 6, 13, 21, 27, 31, 64, 69, 71
+  - Reg. UE 2024/2847 allegati II e VII
+  version: 0.1.0-alpha
+  status: alpha
+  tags:
+  - cra
+  - reg-ue-2024-2847
+  - cyber
+  - security-by-design
+  - sbom
+  - vulnerability-management
 - id: cra-segnalazione-art14
   area: software-dati-cybersecurity
   title: CRA - Segnalazione di vulnerabilita' e incidenti (art. 14)

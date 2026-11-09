@@ -1,0 +1,59 @@
+schema_version: 1
+skill: cra-requisiti-essenziali-allegato-i
+last_verified: 2026-11-09
+
+# Ogni sorgente e' un oggetto con i campi:
+#   id: identificatore locale (usato in task files come rinvio)
+#   title: titolo completo
+#   type: legge | decreto | allegato | linea-guida | norma-uni | norma-cei | circolare | giurisprudenza | regolamento-ue | direttiva-ue | altro
+#   url: URL canonico della fonte
+#   accept: header Accept da usare nel download (opzionale)
+#   accept_language: header Accept-Language da usare nel download (opzionale)
+#           Servono solo per i repository che espongono piu' rappresentazioni
+#           sullo stesso URL scegliendo in base al content negotiation, come
+#           CELLAR dell'Ufficio pubblicazioni UE: senza header restituisce RDF,
+#           con il solo Accept risponde 400, con Accept: application/xhtml+xml
+#           e accept_language: ita restituisce il testo integrale dell'atto.
+#   accessed: data consultazione (YYYY-MM-DD)
+#   sha256: hash SHA256 del file binario scaricato (REALE, no placeholder)
+#   license: public-domain | cc-by | cc-by-nc | proprietary-paid | other
+#   binary_path: path del binario in locale (fuori repo, in not_in_repo/), oppure null
+#   md_path: path del markdown della fonte in references/fonti/ (mandatory per fonti pubbliche), oppure null
+#   excerpt_path: path dell'estratto curato in references/estratti/ (parafrasi mirata di md_path)
+#   notes: note libere
+#
+# Workflow obbligato (vedi AGENTS.md "Regola zero"):
+#   1. SCARICARE -> binary_path
+#   2. SALVARE l'hash -> sha256
+#   3. CONVERTIRE in MD -> md_path (committato nella skill, transcrizione fedele)
+#   4. USARE il MD per scrivere la skill (estratti, tasks, examples, codice)
+#
+# Step 3 e' lo step gating: senza md_path popolato per ogni fonte pubblica
+# dichiarata, la skill non si scrive. Niente eccezioni.
+
+sources:
+  - id: reg-ue-2024-2847-cra-requisiti-essenziali
+    title: "Regolamento (UE) 2024/2847 del Parlamento europeo e del Consiglio del 23 ottobre 2024 relativo a requisiti orizzontali di cibersicurezza per i prodotti con elementi digitali (Cyber Resilience Act) - considerando 38, artt. 3, 6, 13, 21, 27, 31, 64, 69, 71 e allegati I, II, VII"
+    type: regolamento-ue
+    url: http://publications.europa.eu/resource/celex/32024R2847
+    accept: application/xhtml+xml
+    accept_language: ita
+    accessed: 2026-11-09
+    sha256: c545dfacd04be16112595c2de51b35c6d6d0329b565b393de581c77b63659f5b
+    license: public-domain
+    binary_path: not_in_repo/reg-ue-2024-2847-cra-cellar.xhtml
+    md_path: references/fonti/reg-ue-2024-2847-cra-requisiti-essenziali.md
+    excerpt_path: references/estratti/cra-allegato-i-requisiti-e-obblighi.md
+    notes: |
+      Unica fonte della skill. ELI dell'atto:
+      http://data.europa.eu/eli/reg/2024/2847/oj - CELEX 32024R2847.
+      Stessa via CELLAR (XHTML italiano via content negotiation) e stesso hash
+      di skills/cra-segnalazione-art14: il binario scaricato il 2026-11-09
+      coincide byte per byte con quello del 2026-08-25. La trascrizione e'
+      estratta in modo meccanico dall'XHTML e verificata riga per riga.
+      Date di applicazione (art. 71, par. 2): requisiti essenziali e obblighi
+      dell'art. 13 dall'11 dicembre 2027; art. 14 dall'11 settembre 2026.
+      Non letti e non citati: atti nazionali italiani di adeguamento al CRA,
+      gli atti delegati e di esecuzione della Commissione (art. 13, par. 8 e
+      24; art. 27, par. 2 e 9), l'elenco delle norme armonizzate pubblicate
+      in GU UE.
