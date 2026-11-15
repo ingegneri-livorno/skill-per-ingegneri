@@ -1,6 +1,6 @@
 schema_version: 1
 skill: denuncia-autorizzazione-sismica-dpr380
-last_verified: 2026-07-17
+last_verified: 2026-11-15
 
 # Fonte per gli adempimenti per le COSTRUZIONI IN ZONE SISMICHE: denuncia dei lavori e
 # deposito del progetto (art. 93), autorizzazione preventiva all'inizio dei lavori (art.
@@ -45,3 +45,25 @@ sources:
       citate come rinvio; gli artt. 52, 65, 67, 83 (classificazione sismica) e il DM 17/1/2018
       (NTC) sono citati. Distinta da denuncia-opere-strutturali-l1086 (art. 65, opere in c.a./
       acciaio) e dalle skill NTC (calcolo).
+
+  - id: dl-205-2026-gu-263
+    title: "D.L. 11 novembre 2026, n. 205 - Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile (GU SG n. 263 dell'11/11/2026) - artt. 1, 9, 10, 18, 19, 28"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg
+    download_url: https://www.gazzettaufficiale.it/eli/gu/2026/11/11/263/sg/pdf
+    accessed: 2026-11-15
+    sha256: 12e7d5893462c1ec18f16a6a27c6666b540df2b157b4e82f288f0a64c337e8b3
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-263-2026-11-11.pdf
+    md_path: references/fonti/dl-205-2026-gu-263.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 263 dell'11/11/2026 (due download del
+      2026-11-15 con hash identico); il D.L. 205/2026 occupa le pp. 71-89 (codice
+      redazionale 26G00225), in vigore dal 12/11/2026 (art. 28: giorno successivo alla
+      pubblicazione; confermato dalla pagina dell'atto), da presentare alle Camere per
+      la conversione in legge. Trascritti art. 1 cc. 1, 4 lett. a-b, 5, 6; art. 9
+      (consumo del suolo nella zona di intervento); art. 10 (Conferenza di servizi
+      permanente, approvazione progetti pubblici ex art. 38 D.Lgs. 36/2023, ordinanze
+      per il patrimonio edilizio privato); art. 18 cc. 1, 2, 4; art. 19; art. 28.
+      RILIEVO PER QUESTA SKILL: artt. 18-19: programma pluriennale del Commissario di riparazione e riqualificazione sismica degli edifici pubblici e delle infrastrutture, preferenza per demolizione e ricostruzione altrove a costo comparabile (art. 18 c. 4), programma annuale di prevenzione strutturale (art. 19, rinvio all'art. 9-ter D.L. 76/2024).
+      Da riverificare alla legge di conversione e alle ordinanze del Commissario.

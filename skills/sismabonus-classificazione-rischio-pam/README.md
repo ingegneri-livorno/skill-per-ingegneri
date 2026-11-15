@@ -55,6 +55,7 @@ Fonti primarie (tutte pubbliche, fetched da PDF MIT ufficiali):
 - DM MIT 6/8/2020 n. 329 - **modifica art. 3** del DM 58/2017 (super-sismabonus 110%) e **sostituisce l'Allegato B** (asseverazione tecnica). Non modifica l'Allegato A.
 - NTC 2018 (DM 17/1/2018) - cap. 3.2 (azione sismica), cap. 8 (costruzioni esistenti)
 - Circ. MIT 21/1/2019 n. 7 - cap. C8
+- D.L. 11/11/2026 n. 205 (Campi Flegrei) - artt. 1, 10, 28: regime speciale per la zona di intervento; decreto-legge da convertire in legge
 
 Dettaglio in [`references/sources.yaml`](references/sources.yaml).
 

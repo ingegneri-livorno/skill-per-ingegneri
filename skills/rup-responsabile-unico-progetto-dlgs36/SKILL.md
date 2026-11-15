@@ -8,7 +8,8 @@ summary: "Inquadra il Responsabile unico del progetto - RUP (D.Lgs. 36/2023 art.
 normative_refs:
   - "D.Lgs. 31/3/2023 n. 36 - art. 15 c. 1-4 (nomina, requisiti, indicazione nel bando, unicita' e modelli organizzativi)"
   - "D.Lgs. 31/3/2023 n. 36 - art. 15 c. 5-9 (compiti, struttura di supporto, formazione, incompatibilita', centrali di committenza)"
-version: 0.1.0-alpha
+  - "D.L. 11/11/2026 n. 205 (GU n. 263 dell'11/11/2026, vigente dal 12/11/2026, da convertire) - art. 10: Campi Flegrei, progetti pubblici approvati in Conferenza di servizi permanente (art. 38 Codice)"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - dlgs-36-2023
@@ -76,11 +77,22 @@ non verifica in concreto i requisiti dell'allegato I.2.
 | [`inquadra-nomina-rup`](tasks/inquadra-nomina-rup.md) | Verifica il momento e l'atto di nomina (c. 1, 3), il soggetto e i requisiti (c. 2), l'unicita' e l'eventuale modello organizzativo con responsabili di procedimento (c. 4) |
 | [`verifica-compiti-incompatibilita`](tasks/verifica-compiti-incompatibilita.md) | Inquadra i compiti e la struttura di supporto (c. 5, 6), la formazione (c. 7), il divieto di cumulo nel contraente generale/PPP (c. 8) e il RUP delle centrali di committenza (c. 9) |
 
+## Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026
+
+Per immobili e interventi nella **zona di intervento dei Campi Flegrei** (art. 1 c. 5: territorio dei comuni di Bacoli, Napoli e Pozzuoli ricompreso nella zona del Piano straordinario dell'art. 2 del D.L. 140/2023; per le funzioni degli artt. 12, 13 e 13-bis del D.L. 144/2026 anche il comune di Monte di Procida) si applica il regime speciale del **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile" (GU SG n. 263 dell'11/11/2026, in vigore dal **12/11/2026**, art. 28). Fonte: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg - testo in [`references/fonti/dl-205-2026-gu-263.md`](references/fonti/dl-205-2026-gu-263.md).
+
+- **Art. 10 (Conferenza di servizi permanente)**: e' istituita la "Conferenza di servizi permanente per l'area dei Campi Flegrei", presieduta dal Commissario. La sua determinazione conclusiva **sostituisce a ogni effetto tutti i pareri, intese, concerti, nulla osta o altri atti di assenso** delle amministrazioni coinvolte e ha **effetto di variante agli strumenti urbanistici** vigenti. La Conferenza **approva, ai sensi dell'art. 38 del D.Lgs. 36/2023**, i progetti dei soggetti attuatori degli interventi sul patrimonio edilizio pubblico (c. 3 lett. b) e i progetti delle opere pubbliche e dei lavori su beni culturali di competenza del Commissario, del Ministero della cultura e del MIT (c. 3 lett. c).
+- Per il RUP di questi interventi l'iter approvativo del progetto passa quindi dalla Conferenza di servizi permanente, non dalla conferenza ordinaria: il decreto non modifica l'art. 15 del D.Lgs. 36/2023 (nomina, requisiti, compiti del RUP).
+- **Decreto-legge non ancora convertito**: il decreto "sara' presentato alle Camere per la conversione in legge" (art. 28); le disposizioni possono cambiare in sede di conversione. Ricontrollare questa sezione alla pubblicazione della legge di conversione in GU.
+- **Ordinanze del Commissario**: sugli interventi relativi al patrimonio edilizio privato la Conferenza di servizi permanente si esprime "nelle modalita' e nei casi stabiliti con ordinanza del Commissario" (art. 10 c. 3 lett. d); le procedure per i lavori privati nella zona vanno quindi verificate sulle ordinanze commissariali vigenti.
+- **Segnalalo all'utente** quando l'immobile o l'opera ricade nella zona. La skill non ricostruisce il regime speciale ne' il contenuto delle ordinanze: rinvia al testo del decreto e agli atti del Commissario.
+
 ## Riferimenti normativi
 
 - **D.Lgs. 31 marzo 2023, n. 36** (Codice dei contratti pubblici) - **art. 15**
   (Responsabile unico del progetto - RUP), commi **1-9**; **allegato I.2**
   (requisiti e compiti del RUP, rinvio); richiamato l'**art. 37** (programmazione).
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 10, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`,
 `references/fonti/dlgs-36-2023-art15.md`,

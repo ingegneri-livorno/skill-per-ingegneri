@@ -8,7 +8,8 @@ summary: "Inquadra i regimi del titolo edilizio diversi dal permesso di costruir
 normative_refs:
   - "D.P.R. 6/6/2001 n. 380 - artt. 6 (attivita' edilizia libera) e 6-bis (CILA)"
   - "D.P.R. 6/6/2001 n. 380 - artt. 22 (SCIA) e 23 (SCIA in alternativa al permesso di costruire)"
-version: 0.1.0-alpha
+  - "D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - art. 9: Campi Flegrei, piani comunali: consumo di suolo per nuove costruzioni/ristrutturazioni solo in casi eccezionali"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - dpr-380-2001
@@ -69,12 +70,22 @@ dell'intervento (art. 3), non redige la CILA/SCIA e non sostituisce il SUE/Comun
 | [`scegli-titolo-edilizio`](tasks/scegli-titolo-edilizio.md) | Inquadra il regime applicabile (edilizia libera art. 6, CILA art. 6-bis, SCIA art. 22, SCIA alternativa art. 23) a partire dalla categoria dell'intervento (art. 3) |
 | [`imposta-scia-alternativa`](tasks/imposta-scia-alternativa.md) | Imposta gli adempimenti della SCIA (art. 22) e della SCIA in alternativa al PdC (art. 23): relazione, termini, contributo, efficacia |
 
+## Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026
+
+Per immobili e interventi nella **zona di intervento dei Campi Flegrei** (art. 1 c. 5: territorio dei comuni di Bacoli, Napoli e Pozzuoli ricompreso nella zona del Piano straordinario dell'art. 2 del D.L. 140/2023; per le funzioni degli artt. 12, 13 e 13-bis del D.L. 144/2026 anche il comune di Monte di Procida) si applica il regime speciale del **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile" (GU SG n. 263 dell'11/11/2026, in vigore dal **12/11/2026**, art. 28). Fonte: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg - testo in [`references/fonti/dl-205-2026-gu-263.md`](references/fonti/dl-205-2026-gu-263.md).
+
+- **Art. 9 (consumo del suolo)**: nella zona gli strumenti urbanistici comunali prevedono consumo di suolo per interventi di **nuova costruzione** o di **ristrutturazione edilizia** (D.P.R. 380/2001 art. 3 c. 1 lett. d ed e) **"soltanto in casi eccezionali"**: per riduzione del rischio, adeguamento funzionale e igienico-sanitario degli immobili esistenti, protezione civile, mobilita', fornitura di servizi essenziali, da motivare adeguatamente, ed **esclusivamente** se e' dimostrata l'**insostenibilita' tecnica ed economica di riqualificare o rigenerare aree gia' edificate** (modalita' da definire con ordinanza del Commissario) e la compatibilita' con la pianificazione di protezione civile. La norma si rivolge agli strumenti urbanistici, non al singolo titolo: per gli interventi di ristrutturazione edilizia in SCIA (art. 22) o in SCIA alternativa al permesso di costruire (art. 23) verificare lo strumento urbanistico vigente e le ordinanze del Commissario.
+- **Decreto-legge non ancora convertito**: il decreto "sara' presentato alle Camere per la conversione in legge" (art. 28); le disposizioni possono cambiare in sede di conversione. Ricontrollare questa sezione alla pubblicazione della legge di conversione in GU.
+- **Ordinanze del Commissario**: sugli interventi relativi al patrimonio edilizio privato la Conferenza di servizi permanente si esprime "nelle modalita' e nei casi stabiliti con ordinanza del Commissario" (art. 10 c. 3 lett. d); le procedure per i lavori privati nella zona vanno quindi verificate sulle ordinanze commissariali vigenti.
+- **Segnalalo all'utente** quando l'immobile o l'opera ricade nella zona. La skill non ricostruisce il regime speciale ne' il contenuto delle ordinanze: rinvia al testo del decreto e agli atti del Commissario.
+
 ## Riferimenti normativi
 
 - **D.P.R. 6 giugno 2001, n. 380** (Testo unico edilizia) - Titolo II - artt. **6**
   (edilizia libera), **6-bis** (CILA), **22** (SCIA), **23** (SCIA in alternativa al
   permesso di costruire); richiamati gli artt. **3** (definizioni), **10** (PdC), **16**
   (contributo), **37** e **44** (sanzioni) e l'**art. 19 della L. 241/1990**.
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 9, 10, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`,
 `references/fonti/dpr-380-2001-6-6bis-22-23.md`,

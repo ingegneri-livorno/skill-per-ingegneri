@@ -5,6 +5,16 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0-alpha] - 2026-11-15
+
+### Added (closes #523)
+- Fonte scaricata, hashata e letta (Regola zero): **GU Serie Generale n. 263 dell'11/11/2026** (PDF integrale del fascicolo), SHA256 12e7d5893462c1ec18f16a6a27c6666b540df2b157b4e82f288f0a64c337e8b3, contenente il **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei" (cod. red. 26G00225, in vigore dal 12/11/2026, da convertire in legge). Trascrizione in `references/fonti/dl-205-2026-gu-263.md`.
+
+### Changed
+- `SKILL.md`: nuova sezione "Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026" - art. 9: nella zona di intervento gli strumenti urbanistici comunali prevedono consumo di suolo da nuova costruzione o ristrutturazione edilizia (art. 3 c. 1 lett. d-e DPR 380) solo in casi eccezionali e previa dimostrazione dell'insostenibilita' tecnica ed economica di riqualificare o rigenerare aree gia' edificate; avvertenza su decreto-legge in attesa di conversione e su ordinanze del Commissario (art. 10 c. 3 lett. d) per le procedure dei lavori privati. Nuovo `normative_refs`; version 0.1.0-alpha -> 0.2.0-alpha.
+- `references/sources.yaml`: nuova fonte `dl-205-2026-gu-263`; `last_verified` -> 2026-11-15.
+- `README.md`: fonte aggiunta all'elenco.
+
 ## [0.1.0-alpha] - 2026-07-17
 
 ### Added (closes #303)

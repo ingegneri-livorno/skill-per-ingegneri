@@ -8,7 +8,8 @@ summary: "Regime del permesso di costruire (DPR 380/2001): caratteristiche e sog
 normative_refs:
   - "D.P.R. 6/6/2001 n. 380 - artt. 11 (caratteristiche) e 12 (presupposti per il rilascio)"
   - "D.P.R. 6/6/2001 n. 380 - artt. 15 (efficacia temporale e decadenza) e 20 (procedimento)"
-version: 0.1.0-alpha
+  - "D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - art. 9: Campi Flegrei, piani comunali: consumo di suolo per nuove costruzioni/ristrutturazioni solo in casi eccezionali"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - dpr-380-2001
@@ -68,11 +69,21 @@ di costruzione e non sostituisce il SUE, il progettista o il Comune.
 | [`inquadra-presupposti-caratteristiche`](tasks/inquadra-presupposti-caratteristiche.md) | Verifica i presupposti per il rilascio (conformita' urbanistica, urbanizzazioni, salvaguardia; art. 12) e le caratteristiche del titolo (legittimazione, trasferibilita', onerosita'; art. 11) |
 | [`verifica-procedimento-termini-decadenza`](tasks/verifica-procedimento-termini-decadenza.md) | Ricostruisce il procedimento e i termini (art. 20: 60/30 giorni, interruzione, conferenza di servizi, silenzio-assenso) e l'efficacia temporale/decadenza (art. 15: 1 anno/3 anni, proroga) |
 
+## Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026
+
+Per immobili e interventi nella **zona di intervento dei Campi Flegrei** (art. 1 c. 5: territorio dei comuni di Bacoli, Napoli e Pozzuoli ricompreso nella zona del Piano straordinario dell'art. 2 del D.L. 140/2023; per le funzioni degli artt. 12, 13 e 13-bis del D.L. 144/2026 anche il comune di Monte di Procida) si applica il regime speciale del **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile" (GU SG n. 263 dell'11/11/2026, in vigore dal **12/11/2026**, art. 28). Fonte: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg - testo in [`references/fonti/dl-205-2026-gu-263.md`](references/fonti/dl-205-2026-gu-263.md).
+
+- **Art. 9 (consumo del suolo)**: nella zona gli strumenti urbanistici comunali prevedono consumo di suolo per interventi di **nuova costruzione** o di **ristrutturazione edilizia** (D.P.R. 380/2001 art. 3 c. 1 lett. d ed e) **"soltanto in casi eccezionali"**: per riduzione del rischio, adeguamento funzionale e igienico-sanitario degli immobili esistenti, protezione civile, mobilita', fornitura di servizi essenziali, da motivare adeguatamente, ed **esclusivamente** se e' dimostrata l'**insostenibilita' tecnica ed economica di riqualificare o rigenerare aree gia' edificate** (modalita' da definire con ordinanza del Commissario) e la compatibilita' con la pianificazione di protezione civile. La norma si rivolge agli strumenti urbanistici, non al singolo titolo: per il presupposto della **conformita' urbanistica** (art. 12) verificare lo strumento urbanistico vigente e le ordinanze del Commissario.
+- **Decreto-legge non ancora convertito**: il decreto "sara' presentato alle Camere per la conversione in legge" (art. 28); le disposizioni possono cambiare in sede di conversione. Ricontrollare questa sezione alla pubblicazione della legge di conversione in GU.
+- **Ordinanze del Commissario**: sugli interventi relativi al patrimonio edilizio privato la Conferenza di servizi permanente si esprime "nelle modalita' e nei casi stabiliti con ordinanza del Commissario" (art. 10 c. 3 lett. d); le procedure per i lavori privati nella zona vanno quindi verificate sulle ordinanze commissariali vigenti.
+- **Segnalalo all'utente** quando l'immobile o l'opera ricade nella zona. La skill non ricostruisce il regime speciale ne' il contenuto delle ordinanze: rinvia al testo del decreto e agli atti del Commissario.
+
 ## Riferimenti normativi
 
 - **D.P.R. 6/6/2001 n. 380** (Testo unico edilizia) - **artt. 11** (caratteristiche),
   **12** (presupposti), **15** (efficacia temporale e decadenza), **20**
   (procedimento per il rilascio).
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 9, 10, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`,
 `references/fonti/dpr-380-2001-permesso.md`,

@@ -1207,7 +1207,9 @@ skills:
   normative_refs:
   - D.P.R. 6/6/2001 n. 380 - artt. 93 (denuncia lavori e deposito progetto) e 94 (autorizzazione per l'inizio dei lavori)
   - D.P.R. 6/6/2001 n. 380 - art. 94-bis (disciplina degli interventi strutturali in zone sismiche)
-  version: 0.1.0-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263 dell''11/11/2026, vigente dal 12/11/2026, da convertire) - artt. 18-19: Campi Flegrei,
+    programmi del Commissario di riparazione e prevenzione sismica'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - dpr-380-2001
@@ -1476,7 +1478,9 @@ skills:
   normative_refs:
   - D.P.R. 6/6/2001 n. 380 - artt. 6 (attivita' edilizia libera) e 6-bis (CILA)
   - D.P.R. 6/6/2001 n. 380 - artt. 22 (SCIA) e 23 (SCIA in alternativa al permesso di costruire)
-  version: 0.1.0-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - art. 9: Campi Flegrei, piani comunali: consumo
+    di suolo per nuove costruzioni/ristrutturazioni solo in casi eccezionali'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - dpr-380-2001
@@ -2132,7 +2136,9 @@ skills:
   normative_refs:
   - D.P.R. 6/6/2001 n. 380 - artt. 11 (caratteristiche) e 12 (presupposti per il rilascio)
   - D.P.R. 6/6/2001 n. 380 - artt. 15 (efficacia temporale e decadenza) e 20 (procedimento)
-  version: 0.1.0-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - art. 9: Campi Flegrei, piani comunali: consumo
+    di suolo per nuove costruzioni/ristrutturazioni solo in casi eccezionali'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - dpr-380-2001
@@ -2591,7 +2597,9 @@ skills:
   normative_refs:
   - D.Lgs. 31/3/2023 n. 36 - art. 15 c. 1-4 (nomina, requisiti, indicazione nel bando, unicita' e modelli organizzativi)
   - D.Lgs. 31/3/2023 n. 36 - art. 15 c. 5-9 (compiti, struttura di supporto, formazione, incompatibilita', centrali di committenza)
-  version: 0.1.0-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263 dell''11/11/2026, vigente dal 12/11/2026, da convertire) - art. 10: Campi Flegrei,
+    progetti pubblici approvati in Conferenza di servizi permanente (art. 38 Codice)'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - dlgs-36-2023
@@ -2721,7 +2729,9 @@ skills:
   - DM 329/2020 (Allegato A)
   - NTC 2018 cap. 3.2 e cap. 8
   - Circ. 7/2019
-  version: 0.1.1-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263 dell''11/11/2026, vigente dal 12/11/2026, da convertire) - Campi Flegrei: riqualificazione
+    sismica nella zona soggetta a regime speciale (art. 1 c. 4)'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - sismabonus
@@ -3179,7 +3189,9 @@ skills:
     RUP e incompatibilita'', effetti, validazione, rinvio all''Allegato I.7'
   - 'Rinvio (non riprodotti): Allegato I.7 D.Lgs. 36/2023 (contenuti, modalita'' e soggetti della verifica); art. 41 (livelli
     di progettazione); DPR 380/2001 artt. 65, 93-94 (deposito sismico)'
-  version: 0.1.0-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263 dell''11/11/2026, vigente dal 12/11/2026, da convertire) - art. 10: Campi Flegrei,
+    progetti pubblici approvati in Conferenza di servizi permanente (art. 38 Codice)'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - verifica-progettazione

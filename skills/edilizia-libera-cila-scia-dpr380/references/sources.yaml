@@ -1,6 +1,6 @@
 schema_version: 1
 skill: edilizia-libera-cila-scia-dpr380
-last_verified: 2026-07-17
+last_verified: 2026-11-15
 
 # Fonte per l'inquadramento dei REGIMI DEL TITOLO EDILIZIO diversi dal permesso di
 # costruire: attivita' edilizia libera (art. 6), CILA (art. 6-bis), SCIA (art. 22) e SCIA
@@ -45,3 +45,25 @@ sources:
       modulistica-edilizia-unificata); gli artt. 3, 10, 16, 37, 44 e l'art. 19 L. 241/1990 sono
       citati come rinvio. Restano ferme le discipline regionali e le normative di settore
       (sismica, paesaggio, vincoli).
+
+  - id: dl-205-2026-gu-263
+    title: "D.L. 11 novembre 2026, n. 205 - Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile (GU SG n. 263 dell'11/11/2026) - artt. 1, 9, 10, 18, 19, 28"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg
+    download_url: https://www.gazzettaufficiale.it/eli/gu/2026/11/11/263/sg/pdf
+    accessed: 2026-11-15
+    sha256: 12e7d5893462c1ec18f16a6a27c6666b540df2b157b4e82f288f0a64c337e8b3
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-263-2026-11-11.pdf
+    md_path: references/fonti/dl-205-2026-gu-263.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 263 dell'11/11/2026 (due download del
+      2026-11-15 con hash identico); il D.L. 205/2026 occupa le pp. 71-89 (codice
+      redazionale 26G00225), in vigore dal 12/11/2026 (art. 28: giorno successivo alla
+      pubblicazione; confermato dalla pagina dell'atto), da presentare alle Camere per
+      la conversione in legge. Trascritti art. 1 cc. 1, 4 lett. a-b, 5, 6; art. 9
+      (consumo del suolo nella zona di intervento); art. 10 (Conferenza di servizi
+      permanente, approvazione progetti pubblici ex art. 38 D.Lgs. 36/2023, ordinanze
+      per il patrimonio edilizio privato); art. 18 cc. 1, 2, 4; art. 19; art. 28.
+      RILIEVO PER QUESTA SKILL: art. 9: nella zona di intervento gli strumenti urbanistici comunali prevedono consumo di suolo da nuova costruzione o ristrutturazione edilizia (art. 3 c. 1 lett. d-e DPR 380) solo in casi eccezionali e previa dimostrazione dell'insostenibilita' tecnica ed economica di riqualificare o rigenerare aree gia' edificate.
+      Da riverificare alla legge di conversione e alle ordinanze del Commissario.

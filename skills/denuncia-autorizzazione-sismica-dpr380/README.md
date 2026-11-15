@@ -31,6 +31,7 @@ rilevanza/privi di rilevanza per zona sismica e regime conseguente (art. 94-bis)
 
 - **D.P.R. 6/6/2001 n. 380** (Testo unico edilizia) - Parte II, Capo IV - artt. 93, 94,
   94-bis - testo vigente su Normattiva (indice pinnato a `!vig=2026-07-17`, codice 001G0429)
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 10, 18, 19, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 

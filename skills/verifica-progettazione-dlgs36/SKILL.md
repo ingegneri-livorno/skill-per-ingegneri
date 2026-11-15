@@ -8,7 +8,8 @@ summary: "Inquadra la verifica della progettazione e la validazione del progetto
 normative_refs:
   - "D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici) - art. 42 (Verifica della progettazione): oggetto e tempi, RUP e incompatibilita', effetti, validazione, rinvio all'Allegato I.7"
   - "Rinvio (non riprodotti): Allegato I.7 D.Lgs. 36/2023 (contenuti, modalita' e soggetti della verifica); art. 41 (livelli di progettazione); DPR 380/2001 artt. 65, 93-94 (deposito sismico)"
-version: 0.1.0-alpha
+  - "D.L. 11/11/2026 n. 205 (GU n. 263 dell'11/11/2026, vigente dal 12/11/2026, da convertire) - art. 10: Campi Flegrei, progetti pubblici approvati in Conferenza di servizi permanente (art. 38 Codice)"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - verifica-progettazione
@@ -57,10 +58,21 @@ documentale** che inquadra oggetto, tempi, soggetti ed effetti.
 - **Contenuti/soggetti** (c. 5): **Allegato I.7** (contenuti, modalità e soggetti; correlati all'importo
   dei lavori); oneri **nelle risorse dell'opera**.
 
+## Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026
+
+Per immobili e interventi nella **zona di intervento dei Campi Flegrei** (art. 1 c. 5: territorio dei comuni di Bacoli, Napoli e Pozzuoli ricompreso nella zona del Piano straordinario dell'art. 2 del D.L. 140/2023; per le funzioni degli artt. 12, 13 e 13-bis del D.L. 144/2026 anche il comune di Monte di Procida) si applica il regime speciale del **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile" (GU SG n. 263 dell'11/11/2026, in vigore dal **12/11/2026**, art. 28). Fonte: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg - testo in [`references/fonti/dl-205-2026-gu-263.md`](references/fonti/dl-205-2026-gu-263.md).
+
+- **Art. 10 (Conferenza di servizi permanente)**: e' istituita la "Conferenza di servizi permanente per l'area dei Campi Flegrei", presieduta dal Commissario. La sua determinazione conclusiva **sostituisce a ogni effetto tutti i pareri, intese, concerti, nulla osta o altri atti di assenso** delle amministrazioni coinvolte e ha **effetto di variante agli strumenti urbanistici** vigenti. La Conferenza **approva, ai sensi dell'art. 38 del D.Lgs. 36/2023**, i progetti dei soggetti attuatori degli interventi sul patrimonio edilizio pubblico (c. 3 lett. b) e i progetti delle opere pubbliche e dei lavori su beni culturali di competenza del Commissario, del Ministero della cultura e del MIT (c. 3 lett. c).
+- Il decreto non nomina la verifica e la validazione dell'art. 42: restano gli adempimenti del Codice; cambia la sede di approvazione del progetto, che per questi interventi e' la Conferenza di servizi permanente. Verificare con il RUP e gli atti del Commissario come si coordinano i passaggi.
+- **Decreto-legge non ancora convertito**: il decreto "sara' presentato alle Camere per la conversione in legge" (art. 28); le disposizioni possono cambiare in sede di conversione. Ricontrollare questa sezione alla pubblicazione della legge di conversione in GU.
+- **Ordinanze del Commissario**: sugli interventi relativi al patrimonio edilizio privato la Conferenza di servizi permanente si esprime "nelle modalita' e nei casi stabiliti con ordinanza del Commissario" (art. 10 c. 3 lett. d); le procedure per i lavori privati nella zona vanno quindi verificate sulle ordinanze commissariali vigenti.
+- **Segnalalo all'utente** quando l'immobile o l'opera ricade nella zona. La skill non ricostruisce il regime speciale ne' il contenuto delle ordinanze: rinvia al testo del decreto e agli atti del Commissario.
+
 ## Fonti
 
 - **D.Lgs. 31 marzo 2023, n. 36** (Codice dei contratti pubblici) - **art. 42** - testo vigente su
   Normattiva (indice pinnato a `!vig=2026-07-17`, codice 23G00044, idGruppo 5).
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 10, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 
