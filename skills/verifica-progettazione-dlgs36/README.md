@@ -31,6 +31,7 @@ Nucleo: **oggetto** (rispondenza al DIP + conformità normativa) e **tempi** per
 
 - **D.Lgs. 31 marzo 2023, n. 36** (Codice dei contratti pubblici) - art. 42 - testo vigente su
   Normattiva (indice pinnato a `!vig=2026-07-17`, codice 23G00044, idGruppo 5).
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 10, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 

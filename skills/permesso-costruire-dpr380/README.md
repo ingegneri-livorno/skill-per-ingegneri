@@ -31,6 +31,7 @@ termini e **silenzio-assenso** (art. 20).
 
 - **D.P.R. 6/6/2001 n. 380** (Testo unico edilizia) - artt. 11, 12, 15, 20 - testo
   vigente su Normattiva (indice pinnato a `!vig=2026-07-17`, codice 001G0429)
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 9, 10, 12, 13, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 

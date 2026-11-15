@@ -5,6 +5,16 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.2.0-alpha] - 2026-11-15
+
+### Added (refs #523)
+- Fonte scaricata, hashata e letta (Regola zero): **GU Serie Generale n. 263 dell'11/11/2026** (PDF integrale del fascicolo), SHA256 12e7d5893462c1ec18f16a6a27c6666b540df2b157b4e82f288f0a64c337e8b3, contenente il **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei" (cod. red. 26G00225, in vigore dal 12/11/2026, da convertire in legge). Trascrizione in `references/fonti/dl-205-2026-gu-263.md` (identica a quella delle altre skill che citano il decreto).
+
+### Changed
+- `SKILL.md`: nuova sezione "Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026" - art. 13: per gli interventi realizzati prima del 1/8/2026 sugli immobili oggetto di contributo, art. 1-sexies D.L. 55/2018, PdC e SCIA in sanatoria con provvedimento espresso entro 60 giorni, una sola richiesta di integrazioni entro 15 giorni, condoni pendenti entro 90 giorni, oneri a carico dell'interessato, salva-casa fatto salvo ove piu' favorevole, conformita' sismica alla realizzazione e al rilascio; art. 12 c. 8 e art. 13 c. 6 sul rapporto con il contributo. Nuovo `normative_refs`; version 0.1.0-alpha -> 0.2.0-alpha.
+- `references/sources.yaml`: nuova fonte `dl-205-2026-gu-263`; `last_verified` -> 2026-11-15.
+- `README.md`: fonte aggiunta all'elenco.
+
 ## [0.1.0-alpha] - 2026-07-17
 
 ### Added (closes #364)

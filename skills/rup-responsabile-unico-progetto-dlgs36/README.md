@@ -33,6 +33,7 @@ e modelli organizzativi (c. 4); **compiti** (c. 5); struttura di supporto e
 
 - **D.Lgs. 31/3/2023 n. 36** (Codice dei contratti pubblici) - art. 15 - testo
   vigente su Normattiva (indice pinnato a `!vig=2026-07-17`, codice 23G00044)
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 10, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 
