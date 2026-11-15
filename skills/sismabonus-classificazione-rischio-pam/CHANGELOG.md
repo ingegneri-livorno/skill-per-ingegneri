@@ -14,6 +14,7 @@ e questa skill aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ### Changed
 - `SKILL.md`: nuova sezione "Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026" - art. 1 c. 4 lett. a-b: nella zona di intervento il Commissario coordina gli interventi sugli edifici privati con almeno un'abitazione principale e concede i relativi contributi (artt. 11-16), e programma e attua quelli su immobili e infrastrutture pubblici (artt. 18-19); metodo di classificazione DM 58/2017 invariato; art. 16: contributo dell'art. 1 c. 695 L. 207/2024 al 100 per cento (anziche' 70) per istanti con reddito imponibile, al netto dell'abitazione principale, inferiore a 28.000 euro, anche per domande gia' presentate o decise; avvertenza su decreto-legge in attesa di conversione e su ordinanze del Commissario (art. 10 c. 3 lett. d) per le procedure dei lavori privati. Nuovo `normative_refs`; version 0.1.1-alpha -> 0.2.0-alpha.
+- `references/fonti/dl-205-2026-gu-263.md`: aggiunto l'art. 12 trascritto integralmente (identico in tutte le skill che citano il decreto).
 - `references/sources.yaml`: nuova fonte `dl-205-2026-gu-263`; `last_verified` -> 2026-11-15.
 - `README.md`: fonte aggiunta all'elenco.
 

@@ -8,7 +8,8 @@ summary: "Inquadra l'accertamento di conformita' (sanatoria edilizia) del DPR 38
 normative_refs:
   - "D.P.R. 6 giugno 2001, n. 380 (Testo unico edilizia) - artt. 36 (assenza titolo/totale difformita'), 36-bis (parziale difformita'/variazioni essenziali - salva-casa) e 37 (assenza/difformita' SCIA)"
   - "Rinvio: D.L. 69/2024 conv. L. 105/2024 (salva-casa, introduce l'art. 36-bis); artt. 31-34, 34-bis, 9-bis, 44 DPR 380; art. 167 D.Lgs. 42/2004; leggi condono (non trattate)"
-version: 0.1.0-alpha
+  - "D.L. 11/11/2026 n. 205 (GU n. 263 dell'11/11/2026, vigente dal 12/11/2026, da convertire) - art. 13: Campi Flegrei, sanatorie in 60 gg e condoni in 90"
+version: 0.2.0-alpha
 status: alpha
 tags:
   - accertamento-conformita
@@ -56,10 +57,22 @@ calcola l'oblazione: è un **supporto documentale** che inquadra presupposti, te
 - **Art. 37** (assenza/difformità SCIA): sanzione **triplo** dell'aumento del valore venale, **min 1.032
   euro** (c. 1); vincolati (cc. 2-3); rinvio all'accertamento **art. 36-bis** (c. 6).
 
+## Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026
+
+Per immobili e interventi nella **zona di intervento dei Campi Flegrei** (art. 1 c. 5: territorio dei comuni di Bacoli, Napoli e Pozzuoli ricompreso nella zona del Piano straordinario dell'art. 2 del D.L. 140/2023; per le funzioni degli artt. 12, 13 e 13-bis del D.L. 144/2026 anche il comune di Monte di Procida) si applica il regime speciale del **D.L. 11 novembre 2026, n. 205** "Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile" (GU SG n. 263 dell'11/11/2026, in vigore dal **12/11/2026**, art. 28). Fonte: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg - testo in [`references/fonti/dl-205-2026-gu-263.md`](references/fonti/dl-205-2026-gu-263.md).
+
+- **Art. 13 (sanatorie e condoni sugli immobili oggetto di contributo)**: per gli **interventi edilizi realizzati prima del 1/8/2026** sugli immobili oggetto dei contributi per la riduzione della vulnerabilita' sismica e per il ripristino, il pronto ripristino e la riqualificazione sismica elencati al c. 1 si applica, in quanto compatibile, l'**art. 1-sexies del D.L. 55/2018** (c. 1). Le richieste di **permesso di costruire in sanatoria** e le **SCIA in sanatoria** presentate ai sensi del c. 1, anche contestualmente alla domanda di contributo, sono concluse dal Comune **con provvedimento espresso entro 60 giorni** (c. 2); il Comune puo' chiedere **una sola volta**, entro 15 giorni, le integrazioni strettamente necessarie, con sospensione dei termini fino alla ricezione e comunque per non oltre 30 giorni (c. 3). Le **istanze di condono** (L. 47/1985, L. 724/1994, D.L. 269/2003) non ancora definite sono definite **con priorita' entro 90 giorni** dalla comunicazione della domanda di contributo (c. 4). Restano ferme le norme antisismiche, di sicurezza, antincendio, igienico-sanitarie, energetiche, idrogeologiche e il D.Lgs. 42/2004 (c. 5). Sanzioni, oblazioni e oneri della sanatoria o del condono **restano a carico dell'interessato** e non sono ammessi a contributo (c. 7). Resta ferma, **ove di maggiore favore**, la disciplina del D.L. 69/2024 (salva-casa); l'intervento deve essere conforme alle norme tecniche per le costruzioni in zona sismica **sia al momento della realizzazione sia al rilascio del titolo in sanatoria** (c. 8).
+- **Rapporto con il contributo**: la pendenza della sanatoria o del condono non preclude la domanda di contributo, ma la concessione e' subordinata alla loro positiva conclusione (art. 13 c. 6); il contributo spetta solo se l'immobile e' munito del titolo e conforme ad esso, o di titolo in sanatoria conseguito alla data della domanda, o nei casi dell'art. 13 (art. 12 c. 8).
+- **Rapporto con gli artt. 36 e 36-bis**: il testo trascritto del decreto non modifica gli artt. 36, 36-bis e 37 del D.P.R. 380/2001; per questi casi fissa un termine di 60 giorni con provvedimento espresso e fa salva la disciplina del salva-casa ove piu' favorevole. Il testo trascritto non dice come l'art. 13 c. 2 si coordina con il silenzio-rifiuto dell'art. 36 c. 3 e con il silenzio-assenso dell'art. 36-bis c. 6: verificarlo con il Comune e con gli atti del Commissario.
+- **Ordinanze del Commissario**: il Commissario puo' assegnare con ordinanza alla propria struttura di supporto, in tutto o in parte, l'istruttoria dei procedimenti edilizi dell'art. 13 (c. 6).
+- **Decreto-legge non ancora convertito**: il decreto "sara' presentato alle Camere per la conversione in legge" (art. 28); le disposizioni possono cambiare in sede di conversione. Ricontrollare questa sezione alla pubblicazione della legge di conversione in GU.
+- **Segnalalo all'utente** quando l'immobile ricade nella zona. La skill non tratta il condono ne' l'art. 1-sexies del D.L. 55/2018 (non trascritto): rinvia al testo del decreto e agli atti del Commissario.
+
 ## Fonti
 
 - **D.P.R. 6 giugno 2001, n. 380** (Testo unico edilizia) - **artt. 36, 36-bis, 37** - testo vigente su
   Normattiva (indice pinnato a `!vig=2026-07-17`, codice 001G0429, idGruppo 9).
+- **D.L. 11/11/2026 n. 205** (Campi Flegrei) - artt. 1, 12, 13, 28; decreto-legge da convertire in legge.
 
 Dettaglio in `references/sources.yaml`, `references/fonti/`, `references/estratti/`.
 

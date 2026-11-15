@@ -12,6 +12,7 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 - `SKILL.md`: nuova sezione "Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026" - artt. 18-19: programma pluriennale del Commissario di riparazione e riqualificazione sismica degli edifici pubblici e delle infrastrutture, preferenza per demolizione e ricostruzione altrove a costo comparabile (art. 18 c. 4), programma annuale di prevenzione strutturale (art. 19, rinvio all'art. 9-ter D.L. 76/2024); avvertenza su decreto-legge in attesa di conversione e su ordinanze del Commissario (art. 10 c. 3 lett. d) per le procedure dei lavori privati. Nuovo `normative_refs`; version 0.1.0-alpha -> 0.2.0-alpha.
+- `references/fonti/dl-205-2026-gu-263.md`: aggiunto l'art. 12 trascritto integralmente (identico in tutte le skill che citano il decreto).
 - `references/sources.yaml`: nuova fonte `dl-205-2026-gu-263`; `last_verified` -> 2026-11-15.
 - `README.md`: fonte aggiunta all'elenco.
 

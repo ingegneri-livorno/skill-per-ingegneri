@@ -1,6 +1,6 @@
 schema_version: 1
 skill: accertamento-conformita-sanatoria-dpr380
-last_verified: 2026-07-17
+last_verified: 2026-11-15
 
 # Fonte per l'inquadramento dell'ACCERTAMENTO DI CONFORMITA' (permesso/SCIA in sanatoria) degli abusi
 # edilizi: assenza di titolo o totale difformita' (art. 36), parziale difformita' e variazioni
@@ -42,3 +42,36 @@ sources:
       (assenza/totale/parziale difformita'/variazione essenziale) al posto del tecnico, NON calcola
       l'oblazione ne' il valore venale, NON tratta il condono (leggi speciali) e NON sostituisce il
       progettista, lo sportello unico per l'edilizia ne' gli enti competenti.
+
+  - id: dl-205-2026-gu-263
+    title: "D.L. 11 novembre 2026, n. 205 - Piano straordinario per i Campi Flegrei nonche' ulteriori disposizioni urgenti di protezione civile (GU SG n. 263 dell'11/11/2026) - artt. 1, 9, 10, 12, 13, 16, 18, 19, 28"
+    type: decreto-legge
+    url: https://www.gazzettaufficiale.it/eli/id/2026/11/11/26G00225/sg
+    download_url: https://www.gazzettaufficiale.it/eli/gu/2026/11/11/263/sg/pdf
+    accessed: 2026-11-15
+    sha256: 12e7d5893462c1ec18f16a6a27c6666b540df2b157b4e82f288f0a64c337e8b3
+    license: public-domain
+    binary_path: not_in_repo/gu-sg-263-2026-11-11.pdf
+    md_path: references/fonti/dl-205-2026-gu-263.md
+    notes: |
+      Fascicolo completo GU Serie Generale n. 263 dell'11/11/2026 (due download del
+      2026-11-15 con hash identico); il D.L. 205/2026 occupa le pp. 71-89 (codice
+      redazionale 26G00225), in vigore dal 12/11/2026 (art. 28: giorno successivo alla
+      pubblicazione; confermato dalla pagina dell'atto), da presentare alle Camere per
+      la conversione in legge. Trascritti art. 1 cc. 1, 4 lett. a-b, 5, 6; art. 9
+      (consumo del suolo nella zona di intervento); art. 10 (Conferenza di servizi
+      permanente, approvazione progetti pubblici ex art. 38 D.Lgs. 36/2023, ordinanze
+      per il patrimonio edilizio privato); art. 12 (procedimento dei contributi per
+      gli edifici privati: titolo edilizio ex art. 20 DPR 380, SCIA artt. 22-23,
+      stato legittimo, condizioni di titolo); art. 13 (semplificazione: sanatorie e
+      condoni sugli immobili oggetto di contributo); art. 16 (percentuale del
+      contributo art. 1 c. 695 L. 207/2024); art. 18 cc. 1, 2, 4; art. 19; art. 28.
+      RILIEVO PER QUESTA SKILL: art. 13: per gli interventi edilizi realizzati prima del
+      1/8/2026 sugli immobili oggetto dei contributi elencati al c. 1 si applica, in quanto
+      compatibile, l'art. 1-sexies D.L. 55/2018; PdC e SCIA in sanatoria conclusi dal Comune
+      entro 60 giorni, una sola richiesta di integrazioni entro 15 giorni (sospensione max 30);
+      condoni pendenti definiti con priorita' entro 90 giorni; resta ferma, ove di maggiore
+      favore, la disciplina del D.L. 69/2024; conformita' alle norme tecniche sismiche sia alla
+      realizzazione sia al rilascio del titolo in sanatoria (c. 8); art. 12 c. 8: contributo
+      solo con titolo, titolo in sanatoria gia' conseguito o nei casi dell'art. 13.
+      Da riverificare alla legge di conversione e alle ordinanze del Commissario.

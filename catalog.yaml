@@ -51,7 +51,9 @@ skills:
     essenziali - salva-casa) e 37 (assenza/difformita' SCIA)
   - 'Rinvio: D.L. 69/2024 conv. L. 105/2024 (salva-casa, introduce l''art. 36-bis); artt. 31-34, 34-bis, 9-bis, 44 DPR 380;
     art. 167 D.Lgs. 42/2004; leggi condono (non trattate)'
-  version: 0.1.0-alpha
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263 dell''11/11/2026, vigente dal 12/11/2026, da convertire) - art. 13: Campi Flegrei,
+    sanatorie in 60 gg e condoni in 90'
+  version: 0.2.0-alpha
   status: alpha
   tags:
   - accertamento-conformita
@@ -1478,8 +1480,8 @@ skills:
   normative_refs:
   - D.P.R. 6/6/2001 n. 380 - artt. 6 (attivita' edilizia libera) e 6-bis (CILA)
   - D.P.R. 6/6/2001 n. 380 - artt. 22 (SCIA) e 23 (SCIA in alternativa al permesso di costruire)
-  - 'D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - art. 9: Campi Flegrei, piani comunali: consumo
-    di suolo per nuove costruzioni/ristrutturazioni solo in casi eccezionali'
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - artt. 9, 12, 13: Campi Flegrei, consumo di
+    suolo; titoli e SCIA per interventi con contributo; sanatorie'
   version: 0.2.0-alpha
   status: alpha
   tags:
@@ -2136,8 +2138,8 @@ skills:
   normative_refs:
   - D.P.R. 6/6/2001 n. 380 - artt. 11 (caratteristiche) e 12 (presupposti per il rilascio)
   - D.P.R. 6/6/2001 n. 380 - artt. 15 (efficacia temporale e decadenza) e 20 (procedimento)
-  - 'D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - art. 9: Campi Flegrei, piani comunali: consumo
-    di suolo per nuove costruzioni/ristrutturazioni solo in casi eccezionali'
+  - 'D.L. 11/11/2026 n. 205 (GU n. 263, vigente dal 12/11/2026, da convertire) - artt. 9, 12, 13: Campi Flegrei, consumo di
+    suolo; titoli e SCIA per interventi con contributo; sanatorie'
   version: 0.2.0-alpha
   status: alpha
   tags:

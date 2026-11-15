@@ -12,6 +12,8 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 - `SKILL.md`: nuova sezione "Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026" - art. 9: nella zona di intervento gli strumenti urbanistici comunali prevedono consumo di suolo da nuova costruzione o ristrutturazione edilizia (art. 3 c. 1 lett. d-e DPR 380) solo in casi eccezionali e previa dimostrazione dell'insostenibilita' tecnica ed economica di riqualificare o rigenerare aree gia' edificate; art. 13: per gli interventi realizzati prima del 1/8/2026 sugli immobili oggetto di contributo, art. 1-sexies D.L. 55/2018, PdC e SCIA in sanatoria entro 60 giorni, una sola richiesta di integrazioni entro 15 giorni, condoni pendenti definiti con priorita' entro 90 giorni; avvertenza su decreto-legge in attesa di conversione e su ordinanze del Commissario (art. 10 c. 3 lett. d) per le procedure dei lavori privati. Nuovo `normative_refs`; version 0.1.0-alpha -> 0.2.0-alpha.
+- `SKILL.md`: sezione Campi Flegrei estesa all'**art. 12** (domanda di contributo con la richiesta del titolo; il Comune rilascia il titolo ex art. 20 o verifica SCIA artt. 22-23; progetto unitario e stato legittimo riferito all'edificio; contributo solo con titolo, sanatoria o casi dell'art. 13); il punto sulle ordinanze ora distingue cio' che il decreto dispone direttamente (artt. 12-13) da cio' che e' rinviato alle ordinanze.
+- `references/fonti/dl-205-2026-gu-263.md`: aggiunto l'art. 12 trascritto integralmente (identico in tutte le skill che citano il decreto).
 - `references/sources.yaml`: nuova fonte `dl-205-2026-gu-263`; `last_verified` -> 2026-11-15.
 - `README.md`: fonte aggiunta all'elenco.
 

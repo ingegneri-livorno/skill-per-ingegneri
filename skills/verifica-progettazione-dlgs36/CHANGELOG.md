@@ -12,6 +12,8 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 - `SKILL.md`: nuova sezione "Zona dei Campi Flegrei: regime speciale D.L. 205/2026 - stato al 15 novembre 2026" - art. 10: Conferenza di servizi permanente presieduta dal Commissario, che sostituisce pareri e atti di assenso, ha effetto di variante urbanistica e approva i progetti pubblici ai sensi dell'art. 38 D.Lgs. 36/2023 (c. 3 lett. b-c); avvertenza su decreto-legge in attesa di conversione e su ordinanze del Commissario (art. 10 c. 3 lett. d) per le procedure dei lavori privati. Nuovo `normative_refs`; version 0.1.0-alpha -> 0.2.0-alpha.
+- `SKILL.md`: l'affermazione sulla verifica e validazione dell'art. 42 e' riferita alle sole parti trascritte del decreto, non all'intero decreto.
+- `references/fonti/dl-205-2026-gu-263.md`: aggiunto l'art. 12 trascritto integralmente (identico in tutte le skill che citano il decreto).
 - `references/sources.yaml`: nuova fonte `dl-205-2026-gu-263`; `last_verified` -> 2026-11-15.
 - `README.md`: fonte aggiunta all'elenco.
 
