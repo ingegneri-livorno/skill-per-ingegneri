@@ -138,6 +138,12 @@ Anche per un intervento elencato nell'Allegato A:
 - **D.M. MASE 15 luglio 2026, n. 223** - **art. 1** (Modello Unico Parte III), **art. 2**
   (modifiche a Parte I e II), **art. 3** (entrata in vigore). Intesa Conferenza unificata Rep. atti
   n. 81/CU del 7 luglio 2026.
+- **Decreto MASE del 12 novembre 2026** (comunicato stampa MASE del 12/11/2026,
+  https://www.mase.gov.it/portale/web/guest/-/geotermia-mase-pubblicato-il-decreto-sugli-impianti-a-circuito-aperto-prime-indicazioni-tecniche-per-la-realizzazione):
+  definisce le caratteristiche degli impianti geotermici a circuito aperto e prime indicazioni tecniche
+  di realizzazione, anche per la climatizzazione di edifici civili. Numero, data esatti e testo in GU
+  **non ancora verificati**: il regime autorizzativo applicabile a questi impianti non e' inquadrato in
+  questa skill e va verificato sul testo del decreto.
 - Richiamati, non riprodotti: **D.Lgs. 199/2021** artt. 19 c. 1 e 25 c. 3 lett. a); **D.M. MASE 23
   ottobre 2024, n. 368** (istituzione SUER); **D.M. 2 agosto 2022, n. 297** (Modello Unico Parte I
   e II); **D.M. MASE 11 dicembre 2025, n. 441** (modelli unici PAS e AU).

@@ -7,6 +7,11 @@ e questa skill aderisce a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+### Added (closes #524)
+- Riferimento in "Riferimenti normativi" al decreto MASE del 12/11/2026 sugli impianti geotermici a
+  circuito aperto, solo come segnalazione (fonte: comunicato stampa MASE). Numero, data e testo del
+  decreto non verificati: nessuna regola autorizzativa aggiunta.
+
 ## [0.1.0-alpha] - 2026-08-09
 
 ### Added (closes #489)
