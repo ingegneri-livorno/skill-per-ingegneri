@@ -5,6 +5,10 @@ Versioning: [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Note (refs #520)
+- Il Consiglio dei Ministri n. 196 del 5 novembre 2026 ha approvato in esame definitivo il decreto legislativo di attuazione della direttiva (UE) 2024/2881 sulla qualita' dell'aria ambiente (fonte verificata: comunicato stampa CdM n. 196, governo.it).
+- Testo del decreto non ancora disponibile (pubblicazione in GU non verificata): nessuna modifica a `SKILL.md`, `references/` o `catalog.yaml`. Da verificare: il decreto modifica il D.Lgs. 152/2006 Parte II, Titolo III-bis (AIA)?
+
 ## [0.2.0-alpha] - 2026-11-01
 
 ### Changed (closes #517)
